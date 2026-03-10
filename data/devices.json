@@ -494,13 +494,13 @@
           "name": "12-Lead ECG Patient Cable (IEC 4mm plug)",
           "part_number": "NKEK081",
           "description": "10 wires, IEC 4mm plug, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/NKEK081.png"
+          "image": "images/ecg-similar/nkek081.png"
         },
         {
           "name": "12-Lead ECG Patient Cable (Snap type)",
           "part_number": "NKEK082",
           "description": "10 wires, snap type, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/NKEK082.png"
+          "image": "images/ecg-similar/nkek082.png"
         }
       ],
       "Electrodes": [
@@ -533,13 +533,13 @@
           "name": "12-Lead ECG Patient Cable (IEC 4mm plug)",
           "part_number": "NKEK081",
           "description": "10 wires, IEC 4mm plug, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/NKEK081.png"
+          "image": "images/ecg-similar/nkek081.png"
         },
         {
           "name": "12-Lead ECG Patient Cable (Snap type)",
           "part_number": "NKEK082",
           "description": "10 wires, snap type, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/NKEK082.png"
+          "image": "images/ecg-similar/nkek082.png"
         }
       ],
       "Electrodes": [
@@ -572,13 +572,13 @@
           "name": "12-Lead ECG Patient Cable (IEC 4mm plug)",
           "part_number": "NKEK081",
           "description": "10 wires, IEC 4mm plug, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/NKEK081.png"
+          "image": "images/ecg-similar/nkek081.png"
         },
         {
           "name": "12-Lead ECG Patient Cable (Snap type)",
           "part_number": "NKEK082",
           "description": "10 wires, snap type, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/NKEK082.png"
+          "image": "images/ecg-similar/nkek082.png"
         }
       ],
       "Electrodes": [
@@ -611,13 +611,13 @@
           "name": "12-Lead ECG Patient Cable (IEC 4mm plug)",
           "part_number": "NKEK081",
           "description": "10 wires, IEC 4mm plug, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/NKEK081.png"
+          "image": "images/ecg-similar/nkek081.png"
         },
         {
           "name": "12-Lead ECG Patient Cable (Snap type)",
           "part_number": "NKEK082",
           "description": "10 wires, snap type, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/NKEK082.png"
+          "image": "images/ecg-similar/nkek082.png"
         }
       ],
       "Electrodes": [
@@ -641,10 +641,5 @@
         }
       ]
     }
-  },
-  "SVM-7100": {
-    "image": "images/svm-7100/svm-7100.png",
-    "part_number": "NKE-SVM-7160K-T3W",
-    "categories": {}
   }
 }
