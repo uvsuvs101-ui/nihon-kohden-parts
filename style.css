@@ -1,0 +1,209 @@
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f2f2f2;
+}
+
+/* Password Screen */
+#passwordScreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #1f2933;
+}
+
+.password-box {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+.password-logo {
+  width: 120px;
+  margin-bottom: 16px;
+}
+
+.password-box h2 {
+  margin: 0 0 6px;
+  font-size: 20px;
+  color: #1f2933;
+}
+
+.password-box p {
+  color: #6b7280;
+  margin: 0 0 20px;
+  font-size: 14px;
+}
+
+.password-box input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom: 12px;
+  outline: none;
+}
+
+.password-box input:focus {
+  border-color: #1f2933;
+}
+
+.password-box button {
+  width: 100%;
+  padding: 10px;
+  background: #1f2933;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.password-box button:hover {
+  background: #374151;
+}
+
+.password-error {
+  color: #ef4444;
+  font-size: 13px;
+  margin-top: 10px;
+  min-height: 18px;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: #1f2933;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.sidebar-title {
+  width: 100%;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar-title:hover {
+  background: #374151;
+}
+
+.device-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.device-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.device-list li:hover {
+  background: #374151;
+}
+
+.device-list img {
+  width: 36px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Main content */
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background: #ffffff;
+}
+
+.device-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.device-header img,
+.part img {
+  cursor: zoom-in;
+}
+
+.device-header img {
+  max-width: 180px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.category {
+  margin-top: 25px;
+}
+
+.category h3 {
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 5px;
+}
+
+.part {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.part img {
+  width: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Image overlay */
+.image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.image-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 6px;
+  box-shadow: 0 0 30px black;
+}

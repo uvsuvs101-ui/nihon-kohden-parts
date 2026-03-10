@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="color-scheme" content="light" />
+  <title>Nihon Kohden Parts Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Password Screen -->
+  <div id="passwordScreen">
+    <div class="password-box">
+      <img src="images/logo.png" alt="Logo" class="password-logo" onerror="this.style.display='none'" />
+      <h2>Nihon Kohden Parts Finder</h2>
+      <p>Enter password to continue</p>
+      <input type="password" id="passwordInput" placeholder="Password" />
+      <button onclick="checkPassword()">Enter</button>
+      <p id="passwordError" class="password-error"></p>
+    </div>
+  </div>
+
+  <!-- Main App (hidden until password correct) -->
+  <div class="app" id="appContent" style="display:none;">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <button id="devicesToggle" class="sidebar-title">
+        ▸ Devices
+      </button>
+      <ul id="deviceList" class="device-list hidden"></ul>
+    </aside>
+
+    <!-- Main content -->
+    <main class="content">
+      <div id="mainContent">
+        <h2>Welcome</h2>
+        <p>Select a device from the left to view its parts and consumables.</p>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // Allow pressing Enter to submit password
+    document.getElementById("passwordInput").addEventListener("keydown", function(e) {
+      if (e.key === "Enter") checkPassword();
+    });
+
+    function checkPassword() {
+      const input = document.getElementById("passwordInput").value;
+      if (input === "Lapidot2026") {
+        document.getElementById("passwordScreen").style.display = "none";
+        document.getElementById("appContent").style.display = "flex";
+      } else {
+        document.getElementById("passwordError").textContent = "Incorrect password. Try again.";
+        document.getElementById("passwordInput").value = "";
+        document.getElementById("passwordInput").focus();
+      }
+    }
+  </script>
+
+  <script src="app.js"></script>
+</body>
+</html>
