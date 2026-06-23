@@ -1,19 +1,4089 @@
 {
   "categories": {
-    "ECG Electrodes": [
+    "ECG Accessories": [
       {
-        "name": "⚠ EXAMPLE — replace or delete this entry",
-        "nk_part_number": "EXAMPLE-NK-000",
-        "lapidot_part_number": "EXAMPLE-LAP-000",
-        "compatible": ["BSM-1700 (Life Scope PT)", "CSM-1500 (G5 Monitor)", "ECG-2150"],
-        "image": ""
+        "name": "12-Lead ECG Patient Cable",
+        "nk_part_number": "K354 (BJ-831V)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG for PMS and TEC",
+        "compatible": [
+          "EMS-1052",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "10 wires, clip type Reusable, 2,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "12-Lead ECG Patient Cable",
+        "nk_part_number": "K901 (BJ-900P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG for PMS and TEC",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1901",
+          "EMS-1052",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "10 wires, includes patient electrode lead & connection cable; clip type Reusable, 3,8m, 1 PK - 1 EA"
+      },
+      {
+        "name": "3-Lead ECG Electrode Cable",
+        "nk_part_number": "K911 (BR-903P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG for PMS and TEC",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1901",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "clip type Reusable, 0,8m, 1 PK - 1 EA"
+      },
+      {
+        "name": "6-Lead ECG Electrode Cable",
+        "nk_part_number": "K912 (BR-906P (6))",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG for PMS and TEC",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)",
+          "ZM-920",
+          "ZM-930"
+        ],
+        "description": "clip type Reusable, 0,8m, 1 PK - 1 EA"
+      },
+      {
+        "name": "6-Lead ECG Electrode Cable",
+        "nk_part_number": "K915 (BR-916P 6)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG for PMS and TEC",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)",
+          "ZM-920",
+          "ZM-930"
+        ],
+        "description": "snap type Reusable, 0,8m, 1 PK - 1 EA"
+      },
+      {
+        "name": "12-Lead ECG Patient Cable K921",
+        "nk_part_number": "(JC-900P ECG(10))",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG for PMS and TEC",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1901",
+          "EMS-1052",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "10 wires, includes patient electrode lead & connection cable, for AY-900/910/920, connection of pre-wired disposable electrode with DIN type connector Reusable, 3,0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "3/6-Lead ECG Connection Cable K922",
+        "nk_part_number": "(ECG(3/6)JC-906P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG for PMS and TEC",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1901",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Reusable, 3,0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "3-ECG lead",
+        "nk_part_number": "K905 (BR-973P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "3-Lead Cable",
+        "compatible": [],
+        "description": "Low Impedance Paediatrics/Neonates, Reusable, 1,25m, 1 PK - 1 EA"
+      },
+      {
+        "name": "5-ECG lead",
+        "nk_part_number": "K906 (BR-975P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "3-Lead Cable",
+        "compatible": [],
+        "description": "Low Impedance Pediatrics/ Neonates, Reusable, 1,25, 1 PK - 1 EA"
+      },
+      {
+        "name": "12-Lead ECG Patient Cable",
+        "nk_part_number": "K079 (BJ-901D)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "12-Lead Cable",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3150",
+          "ECG-3350"
+        ],
+        "description": "10 wires, IEC 3 mm plug Reusable, limb 1.2m/ ches, 1 PK - 1 EA"
+      },
+      {
+        "name": "12-Lead ECG Patient Cable",
+        "nk_part_number": "K081 (BJ-902D)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "12-Lead Cable",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3150",
+          "ECG-3350"
+        ],
+        "description": "10 wires, IEC 4 mm plug Reusable, limb 3.4m/ ches, 1 PK - 1 EA"
+      },
+      {
+        "name": "12-Lead ECG Patient Cable",
+        "nk_part_number": "K082 (BJ-903D)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "12-Lead Cable",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3150",
+          "ECG-3350"
+        ],
+        "description": "10 wires, snap type Reusable, limb 3.4m/ ches, 1 PK - 1 EA"
+      },
+      {
+        "name": "12-Lead Set",
+        "nk_part_number": "KB010 (BR-202D 12)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "12-Lead Cable",
+        "compatible": [
+          "ECG-2450",
+          "ECG-2550"
+        ],
+        "description": "10 wires, IEC 4mm plug Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Electrode Set",
+        "nk_part_number": "KC010 (BR-203D 12)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "12-Lead Cable",
+        "compatible": [
+          "ECG-2450",
+          "ECG-2550"
+        ],
+        "description": "10 wires, Clip Connectors Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Vitrode L",
+        "nk_part_number": "G207 (L-150X)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Radiolucent (X-ray), foam tape, Ag/AgCl solig gel Adults, Disposable, diameter: 35mm, 1 PK - 30 Set - 5 EA"
+      },
+      {
+        "name": "Vitrode F",
+        "nk_part_number": "G210C (F-150S)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [],
+        "description": "Size S, cotton tape especially for sensitive skin, Ag/AgCl adhesive gel Paediatrics/Neonates, Disposable, 18mm x 36mm, 1 PK - 50 Set - 3 EA"
+      },
+      {
+        "name": "Vitrode F",
+        "nk_part_number": "G210D (F-150M)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [],
+        "description": "Size M, cotton tape especially for sensitive skin, Ag/AgCl adhesive gel Adults, Disposable, 25mm x 45mm, 1 PK - 50 Set - 3 EA"
+      },
+      {
+        "name": "Vitrode M",
+        "nk_part_number": "G236 (M-150)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [],
+        "description": "foam tape, solid gel, for stress test, Ag/AgCl Adults/Paediatrics, Disposable, diameter: 40mm, 1 PK - 30 Set - 5 EA"
+      },
+      {
+        "name": "Vitrode V",
+        "nk_part_number": "G271A (V-120S3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [],
+        "description": "cable length: 0.6m, radiolucent, foam & cotton tape, Ag/AgCl 3 pre-wired electrodes DIN connector Adults/Paediatrics, Disposable, diameter: 20mm, 1 PK - 40 SET - 3 EA"
+      },
+      {
+        "name": "Vitrode V",
+        "nk_part_number": "G272A (V-090M3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [],
+        "description": "cable length: 1.0m, radiolucent (X-ray), hydrogel, foam & cotton tape, Ag/AgCl pre-wired electrodes with DIN connector Adults/Paediatrics, Disposable, 25mm x 45mm, 1 PK - 30 SET - 3 EA"
+      },
+      {
+        "name": "Vitrode V",
+        "nk_part_number": "G272B (V-040M4)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [],
+        "description": "cable length: 1.0m, radiolucent (X-ray), hydrogel, foam & cotton tape, Ag/AgCl pre-wired electrodes with DIN connector for limb leads Adults/Paediatrics, Disposable, 25mm x 45mm, 1 PK - 10 SET - 4 EA"
+      },
+      {
+        "name": "Vitrode V",
+        "nk_part_number": "G278A (V-09IO3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [],
+        "description": "cable length: 1.5m, radiolucent (X-ray), Ag/AgCl foam tape, 3 pre-wired Adults/Paediatrics, Disposable, 25mm x 45mm, 1 PK - 30 SET - 3 EA"
+      },
+      {
+        "name": "Vitrode N",
+        "nk_part_number": "G300A (N-03IS3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [],
+        "description": "cable length: 0.6m, radiolucent (X-ray), foam tape, Ag/AgCl 3 pre-wired electrodes DIN connector Neonates, Disposable, size: 14mm x 25, 1 PK - 10 SET - 3 EA"
+      },
+      {
+        "name": "Vitrode N",
+        "nk_part_number": "G300D (N-01IS3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [],
+        "description": "cable length: 0.6m, radiolucent, long-lasting adhesion in high humidity condition, Ag/AgCl 3 pre-wired electrodes with DIN con Neonates, Disposable, diameter: 15mm, 1 PK - 10 SET - 3 EA"
+      },
+      {
+        "name": "Chest Suction Electrode",
+        "nk_part_number": "H041A",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3150",
+          "ECG-3350"
+        ],
+        "description": "Electrode 3mm, grey rubber ball Adults, Reusable, 3mm, 1 PK - 3 EA"
+      },
+      {
+        "name": "Chest Suction Electrode",
+        "nk_part_number": "H042D (NC-123D ()3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3150",
+          "ECG-3350"
+        ],
+        "description": "Electrode 3mm, blue bear rubber ball Paediatrics, Reusable, 11mm, 1 PK - 1 EA"
+      },
+      {
+        "name": "Chest Suction Electrode",
+        "nk_part_number": "H043A",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3150",
+          "ECG-3350"
+        ],
+        "description": "Electrode 4mm, grey rubber ball Adults, Reusable, 20mm, 1 PK - 3 EA"
+      },
+      {
+        "name": "Chest Suction Electrode",
+        "nk_part_number": "H044A (NC-124D)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3150",
+          "ECG-3350"
+        ],
+        "description": "Electrode 4mm, Pink octupus rubber ball Paediatrics, Reusable, 14mm, 1 PK - 3 EA"
+      },
+      {
+        "name": "Chest Suction Electrode",
+        "nk_part_number": "H044B (NC-124D)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3150",
+          "ECG-3350"
+        ],
+        "description": "Electrode Kuma 4mm, blue bear rubber ball Paediatrics, Reusable, 14mm, 1 PK - 3 EA"
+      },
+      {
+        "name": "Fastclip ECG Electrode",
+        "nk_part_number": "H068A (NC-143E)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3150",
+          "ECG-3350",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Electrode 3mm Adults/Paediatrics, Reusable, 3mm, 1 PK - 1 SET - 4 EA"
+      },
+      {
+        "name": "Fastclip ECG Electrode",
+        "nk_part_number": "H068B (NC-144E 4)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3150",
+          "ECG-3350"
+        ],
+        "description": "Electrode 4mm Adults/Paediatrics, Reusable, 4mm, 1 PK - 1 SET - 4 EA"
+      },
+      {
+        "name": "Snap Adapter",
+        "nk_part_number": "N-00",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [],
+        "description": "Plug to snap connector Reusable, diameter: 4mm, 1 PK - 5 EA"
+      },
+      {
+        "name": "ECG Tab Electrode Normal",
+        "nk_part_number": "NKD-ECG/TAB1",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3150",
+          "ECG-3350"
+        ],
+        "description": "radiolucent, bio-solid gel, backing material graphite, Ag/AgCl Disposable, 26mm x 34 mm, 1 PK - 500 EA"
+      },
+      {
+        "name": "ECG Tab Electrode Clamps",
+        "nk_part_number": "NKD-H/ADAPTER3",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [],
+        "description": "Banana Plug Reusable, 2mm - 4mm, 1 PK - 10 EA"
+      },
+      {
+        "name": "Clip-on Limb Electrode",
+        "nk_part_number": "NKD-K10/C",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Electrodes",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3150",
+          "ECG-3350"
+        ],
+        "description": "Ag/AgCl Black, Green, Red, Yellow Paediatrics, 4mm, 1 PK - 1 SET - 4 EA"
+      },
+      {
+        "name": "Battery Pack",
+        "nk_part_number": "X065 (YZ-024H9)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Batteries",
+        "compatible": [
+          "ECG-1350",
+          "ECG-2350",
+          "ECG-3350",
+          "TEC-5500",
+          "TEC-5600 (Defibrillator)",
+          "TEC-7700"
+        ],
+        "description": "12 V,2800mAh,nickel-metal hydride (NiMH) Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Battery Pack",
+        "nk_part_number": "X078 (SB-201D)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Batteries",
+        "compatible": [
+          "ECG-2450",
+          "ECG-2550"
+        ],
+        "description": "14.4V, 3400 mAh, nickel-metal hydride (NiMH) Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Thermal Paper A052",
+        "nk_part_number": "(FQW210-10-295)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG Paper",
+        "compatible": [
+          "ECG-1550",
+          "ECG-2450",
+          "ECG-2550",
+          "ECG-9320"
+        ],
+        "description": "Z-fold, 339 pages, with queue mark/ perforation size of one page: 295 mm 210mm x 100m, 1 PK - 5 SET"
+      },
+      {
+        "name": "Thermal Paper A053",
+        "nk_part_number": "(FQW210-30-295,)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG Paper",
+        "compatible": [
+          "ECG-1550",
+          "ECG-2450",
+          "ECG-2550",
+          "ECG-9320"
+        ],
+        "description": "Z-fold, 1017 pages, without grid,with queue mark/perforation size of one page: 210mm x 300m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Recording Paper A057",
+        "nk_part_number": "(FQW210-3-295)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG Paper",
+        "compatible": [
+          "ECG-2450",
+          "ECG-2550"
+        ],
+        "description": "295mm x 30m, 1 PK - 10 SET"
+      },
+      {
+        "name": "Thermal Paper",
+        "nk_part_number": "NKD-210-5-295",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG Paper",
+        "compatible": [
+          "ECG-1550",
+          "ECG-2450",
+          "ECG-2550",
+          "ECG-9320"
+        ],
+        "description": "Z-fold, 169 pages, without grid size of one page: 295 mm 210mm x 50m, 1 PK - 10 SET"
+      },
+      {
+        "name": "Thermal Paper",
+        "nk_part_number": "NKD-A054",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG Paper",
+        "compatible": [
+          "ECG-1550",
+          "ECG-2450",
+          "ECG-2550",
+          "ECG-9320"
+        ],
+        "description": "Z-fold, 214 pages, without grid,with queue mark/perforation size of one page: 210mm x 30m, 1 PK - 10 SET"
+      },
+      {
+        "name": "Thermal Paper",
+        "nk_part_number": "NKD-A129",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG Paper",
+        "compatible": [
+          "ECG-1550",
+          "ECG-2450",
+          "ECG-2550",
+          "ECG-9320"
+        ],
+        "description": "Roll, with grid, without queue mark/perforation 63mm x 30m, 1 PK - 10 SET"
+      },
+      {
+        "name": "Thermal Paper,Z-fold",
+        "nk_part_number": "NKD-A730",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG Paper",
+        "compatible": [
+          "ECG-1550",
+          "ECG-2450",
+          "ECG-2550",
+          "ECG-9320"
+        ],
+        "description": "Z-fold, 143 pages, without grid,with queue size of one page: 140 mm 110mm x 20m, 1 PK - 10 SET"
+      },
+      {
+        "name": "Ergometer Cable",
+        "nk_part_number": "NKD-ERGOKABEL3",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Ergometer Accessories",
+        "compatible": [],
+        "description": "Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Ergometer Cable",
+        "nk_part_number": "NKD-ERGOKABEL4",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Ergometer Accessories",
+        "compatible": [],
+        "description": "Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Ergometer Cable",
+        "nk_part_number": "NKD-ERGOKABEL5",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Ergometer Accessories",
+        "compatible": [],
+        "description": "Lode Treatmill/Valiant/Tango/Corival with ECG-1550, ECG-2450; Lode Ergometer Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Ergometer Cable",
+        "nk_part_number": "NKD-ERGOKABEL6",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Ergometer Accessories",
+        "compatible": [],
+        "description": "For Ergo Fit 457 with ECG-1250/1350 Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Ergometer Cable",
+        "nk_part_number": "NKD-ERGOKABELUSB2",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Ergometer Accessories",
+        "compatible": [],
+        "description": "For Ergosana -Sanabike 150F with ECG-1250/135 Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Signa Electrode Spray",
+        "nk_part_number": "NKD-G711",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Suction Systems",
+        "compatible": [],
+        "description": "Skin preparation spray for use of suction vacuum pumps Reusable, 250ml, 1 PK - 1 BO"
+      },
+      {
+        "name": "Code Label",
+        "nk_part_number": "NKD-SAUG/COD",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Suction Systems",
+        "compatible": [],
+        "description": "Reusable, 1 PK - 1 SET - 10 EA"
+      },
+      {
+        "name": "Electrode Distance Holders",
+        "nk_part_number": "NKD-SAUG/DS",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Suction Systems",
+        "compatible": [],
+        "description": "Reusable, 1 PK - 1 SET - 4 EA"
+      },
+      {
+        "name": "Fixing Screw",
+        "nk_part_number": "NKD-SAUG/R-SCHRAUB",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Suction Systems",
+        "compatible": [],
+        "description": "Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Replacement Electrode",
+        "nk_part_number": "NKD-SAUG/ZL",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Suction Systems",
+        "compatible": [],
+        "description": "Ag/AgCl Reusable, 1,0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Replacement Electrode",
+        "nk_part_number": "NKD-SAUG/ZL1",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Suction Systems",
+        "compatible": [],
+        "description": "Ag/AgCl Reusable, 1,3m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Accessory Set",
+        "nk_part_number": "NKD-SAUG/ZLS",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Suction Systems",
+        "compatible": [],
+        "description": "Complete Accessory Set for ECG Suction Systems Set includes: NKD-SAUG/ZL1 NKD-SAUG/ZLS 1 PK - 10 EA"
+      },
+      {
+        "name": "CardioCream Paste",
+        "nk_part_number": "F010 (Z-101BC)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Other Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Adults/Paediatrics/Neonates, Disposable, 100g, 1 PK - 2 EA"
+      },
+      {
+        "name": "Neonatal ECG adapter",
+        "nk_part_number": "L021 (JC-990P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Other Accessories",
+        "compatible": [],
+        "description": "1 PK - 1 EA"
+      },
+      {
+        "name": "Carrying Bag for ECG & Accessories",
+        "nk_part_number": "NKD-BAG",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Other Accessories",
+        "compatible": [
+          "ECG-1150",
+          "ECG-1250",
+          "ECG-1350",
+          "ECG-1950",
+          "ECG-2150",
+          "ECG-2250",
+          "ECG-2350",
+          "ECG-3350"
+        ],
+        "description": "Reusable, 1 PK - 1 EA"
       }
     ],
-    "SpO2 Sensors": [],
-    "NIBP Cuffs": [],
-    "CO2 Sensors": [],
-    "Temperature Probes": [],
-    "Recording Paper": [],
-    "Gels & Adhesives": []
+    "SpO2 Accessories": [
+      {
+        "name": "SpO2 Connection Cable",
+        "nk_part_number": "Y099A (JL-570T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Connection/Adapter Cables",
+        "compatible": [
+          "WEE-1200"
+        ],
+        "description": "Twist lock connector Reusable, Cable length: 0.6m, 1 PK - 1 EA"
+      },
+      {
+        "name": "SpO2 Connection Cable",
+        "nk_part_number": "K931 (JL-900P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Connection/Adapter Cables",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1901",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Reusable, 2,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "SpO2 Connection Cable",
+        "nk_part_number": "K929B (JL-030U2)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Connection/Adapter Cables",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1901",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "For P206 Reusable, 1,0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "SpO2 Multiconnector",
+        "nk_part_number": "Y094A (JL-500P2)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Connection/Adapter Cables",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-2500",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900"
+        ],
+        "description": "Reusable, 2,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "SpO2 Round Connection Cable",
+        "nk_part_number": "Y095A (JL-550T2)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Connection/Adapter Cables",
+        "compatible": [
+          "JE-921A",
+          "JE-921AG",
+          "TEC-5500"
+        ],
+        "description": "Reusable, 2,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Masimo Connection Cable for LNCS Sensors",
+        "nk_part_number": "K937 (JL-631P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Connection/Adapter Cables",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "BSM-9100",
+          "PVM-4700",
+          "SVM-7100"
+        ],
+        "description": "Reusable, 3m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Masimo SpO2 Connection Cable",
+        "nk_part_number": "JL-639P",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Connection/Adapter Cables",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1901"
+        ],
+        "description": "Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Nellcor SpO2 Connection Cable",
+        "nk_part_number": "K935 (JL-650P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Connection/Adapter Cables",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "BSM-9100"
+        ],
+        "description": "Reusable, 3m, 1 PK - 1 EA"
+      },
+      {
+        "name": "SpO2 BluPRO Finger Clip Probe",
+        "nk_part_number": "P225F (TL-201T2)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Probes",
+        "compatible": [],
+        "description": "Adults/Paediatrics (>20kg), Reusable, 1,6m, 1 PK - 1 EA"
+      },
+      {
+        "name": "SpO2 BluPRO Finger-Clip Probe",
+        "nk_part_number": "P225H (TL-201T1)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Probes",
+        "compatible": [],
+        "description": "Adults/Paediatrics (>20 kg), Reusable, 0,6m, 1 PK - 1 EA"
+      },
+      {
+        "name": "SpO2 BluPRO Multi-Site Probe",
+        "nk_part_number": "P225G (TL-220T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Probes",
+        "compatible": [],
+        "description": "Neonates (<3kg) instep; Adults/Paediatrics (>3kg) finger/toe, Reusable, 1,6m, EA"
+      },
+      {
+        "name": "SpO2 BluPRO Finger-Tip Probe L",
+        "nk_part_number": "P310C (TL-630T3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Probes",
+        "compatible": [],
+        "description": "Adults/Paediatrics (>50kg), Reusable, 1,6m, 1 PK - 1 EA"
+      },
+      {
+        "name": "SpO2 BluPRO Finger-Tip Probe M",
+        "nk_part_number": "P311C (TL-631T3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Probes",
+        "compatible": [],
+        "description": "Adults/Paediatrics (>20kg), Reusable, 1,6m, 1 PK - 1 EA"
+      },
+      {
+        "name": "SpO2 Ear-Clip",
+        "nk_part_number": "P256 (TL-260T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Probes",
+        "compatible": [],
+        "description": "Pediatrics /Adults (> 30kg), Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Reusable Probe Fastener Tape",
+        "nk_part_number": "P267 (YS-093P2)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Probes",
+        "compatible": [],
+        "description": "Reusable, size: 15mm x 1, 1 PK - 30 EA"
+      },
+      {
+        "name": "SpO2 BluPRO Probe",
+        "nk_part_number": "P203A (TL-271T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Adults (>30kg) finger/toe, Disposable, 0,8m, 1 PK - 24E"
+      },
+      {
+        "name": "SpO2 BluPRO Probe",
+        "nk_part_number": "P203B (TL-272T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Paediatrics (10-50kg) finger/toe, Disposable, 0,8m, 1 PK - 24E"
+      },
+      {
+        "name": "SpO2 BluPRO Probe",
+        "nk_part_number": "P203C (TL-273T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Neonates (< 3kg) instep; Adults/Paediatrics (> 40kg) finger/toe, Disposable, 0,8m, - 24E"
+      },
+      {
+        "name": "SpO2 BluPRO Probe",
+        "nk_part_number": "P203D (TL-274T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Paediatrics (3-20kg) finger/toe, Disposable, 0,8m, 1 PK - 24E"
+      },
+      {
+        "name": "SpO2 BluPRO Probe",
+        "nk_part_number": "P203E (TL-271T3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Adults (>30kg) finger/toe, Disposable, 1,6m, 1 PK - 24E"
+      },
+      {
+        "name": "SpO2 BluPRO Probe",
+        "nk_part_number": "P203F (TL-272T3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Paediatrics (10-50kg) finger/toe, Disposable, 1,6m, 1 PK - 24E"
+      },
+      {
+        "name": "SpO2 BluPRO Probe",
+        "nk_part_number": "P203G (TL-273T3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Neonates (<3kg) instep; Adults (>40kg) finger/toe, Disposable, 1,6m, 1 PK - 24E"
+      },
+      {
+        "name": "SpO2 BluPRO Probe",
+        "nk_part_number": "P203H (TL-274T3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Paediatrics (3-20kg) finger/toe, Disposable, 1,6m, 1 PK - 24E"
+      },
+      {
+        "name": "SpO2 BluPRO",
+        "nk_part_number": "P205A (TL-260T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Multi-Site-Sensor Neonates (<3kg) instep; Adults/Paediatrics (>3kg) finger/toe, Disposable, 2m, EA"
+      },
+      {
+        "name": "SpO2 Probe",
+        "nk_part_number": "P206 (TL-535U)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Neonate <2.5kg, Disposable, 1 PK - 5 EA"
+      },
+      {
+        "name": "Sponge Attachment Tape Type S",
+        "nk_part_number": "P260E (YS-114P5)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Premature ( < 1 kg) instep, Neonate/Infant ( > 3 kg) finger/ toe, Disposable, 1 - 3 EA"
+      },
+      {
+        "name": "Sponge attachment tape L",
+        "nk_part_number": "P260F (YS-114P6)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Neonate (> 3 kg) instep, Disposable, 1 PK - 8 KT - 3 EA"
+      },
+      {
+        "name": "Disposable Attachment Tape S",
+        "nk_part_number": "P264A (TL-535U S)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Premature (<1kg), Disposable, 1 PK - 4 KT - 6 EA"
+      },
+      {
+        "name": "Disposable Attachment Tape L",
+        "nk_part_number": "P264B (TL-535U L)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Neonate (<2,5kg), Disposable, 1 PK - 4 KT - 6 EA"
+      },
+      {
+        "name": "Disposable Probe Cable Fixing Tape",
+        "nk_part_number": "P263A (YS-111P7)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Probes",
+        "compatible": [],
+        "description": "Disposable, 15mm x 130mm, 1 PK - 3 KT - 30 EA"
+      }
+    ],
+    "NIBP Accessories": [
+      {
+        "name": "NIBP Air-Hose",
+        "nk_part_number": "S901 (YN-900P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "NIBP Air Hoses",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Adults/Paediatrics, Reusable, 1,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "NIBP Air-Hose",
+        "nk_part_number": "S902 (YN-901P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "NIBP Air Hoses",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Adults/Paediatrics, Reusable, 3,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "NIBP Yawara Cuff 2",
+        "nk_part_number": "S951A (YP-710T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Standard NIBP Cuffs",
+        "compatible": [],
+        "description": "Latexfree, arm-circumference: 8 to 13 cm Infant, Reusable, Width: 5cm, 1 PK - 1 EA"
+      },
+      {
+        "name": "NIBP Yawara Cuff 2",
+        "nk_part_number": "S951B (YP-711T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Standard NIBP Cuffs",
+        "compatible": [],
+        "description": "Latexfree, arm-circumference: 13 to 19 cm Child, Reusable, Width: 7cm, 1 PK - 1 EA"
+      },
+      {
+        "name": "NIBP Yawara Cuff 2",
+        "nk_part_number": "S951C (YP-712T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Standard NIBP Cuffs",
+        "compatible": [],
+        "description": "Latexfree, arm-circumference: 19 to 23 cm Adults/Paediatrics, Reusable, Width: 10cm, 1 PK - 1 EA"
+      },
+      {
+        "name": "NIBP Yawara Cuff 2",
+        "nk_part_number": "S951D (YP-713T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Standard NIBP Cuffs",
+        "compatible": [],
+        "description": "Latexfree, arm-circumference: 23 to 33 cm Adults/Paediatrics, Reusable, Width: 13cm, 1 PK - 1 EA"
+      },
+      {
+        "name": "NIBP Yawara Cuff 2",
+        "nk_part_number": "S951E (YP-714T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Standard NIBP Cuffs",
+        "compatible": [],
+        "description": "Latexfree, arm-circumference: 33 to 45 cm Adults, Reusable, Width: 16cm, 1 PK - 1 EA"
+      },
+      {
+        "name": "NIBP Yawara Cuff 2",
+        "nk_part_number": "S951F (YP-715T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Standard NIBP Cuffs",
+        "compatible": [],
+        "description": "Latexfree, thigh-circumference: 45 to 55 cm Adults, Reusable, Width: 19cm, 1 PK - 1 EA"
+      },
+      {
+        "name": "NIBP Cuffs",
+        "nk_part_number": "S954A (YP-840T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Standard NIBP Cuffs",
+        "compatible": [],
+        "description": "arm-circumference: 8 to 13 cm Infant, Disposable, Width: 5cm, 1 PK - 20 EA"
+      },
+      {
+        "name": "NIBP Cuffs",
+        "nk_part_number": "S954B (YP-841T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Standard NIBP Cuffs",
+        "compatible": [],
+        "description": "arm-circumference: 13 to 19 cm Child, Disposable, Width: 7cm, 1 PK - 20 EA"
+      },
+      {
+        "name": "NIBP Cuffs",
+        "nk_part_number": "S954C (YP-842T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Standard NIBP Cuffs",
+        "compatible": [],
+        "description": "arm-circumference: 19 to 23 cm Adults/Paediatrics, Disposable, Width: 10cm, 1 PK - 20 EA"
+      },
+      {
+        "name": "NIBP Cuffs",
+        "nk_part_number": "S954D (YP-843T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Standard NIBP Cuffs",
+        "compatible": [],
+        "description": "arm-circumference: 23 to 33 cm Adults/Paediatrics, Disposable, Width: 13cm, 1 PK - 20 EA"
+      },
+      {
+        "name": "NIBP Cuffs",
+        "nk_part_number": "S954E (YP-844T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Standard NIBP Cuffs",
+        "compatible": [],
+        "description": "arm-circumference: 33 to 45 cm Adults, Disposable, Width: 16cm, 1 PK - 20 EA"
+      },
+      {
+        "name": "NIBP Cuffs",
+        "nk_part_number": "S954F (YP-845T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposable Standard NIBP Cuffs",
+        "compatible": [],
+        "description": "thigh-circumference: 45 to 55 cm Adults, Disposable, Width: 19cm, 1 PK - 20 EA"
+      }
+    ],
+    "IBP Accessories": [
+      {
+        "name": "IBP Connection Cable for Becton Dickinson Transducers",
+        "nk_part_number": "K951 (JP-900P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "IBP Transducer Cable with direct connection",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Reusable, 3,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "IBP Adapter Cable",
+        "nk_part_number": "K952 (JP-910P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "IBP Transducer Cable with direct connection",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "BF Type Reusable, 0,3m, 1 PK - 1 EA"
+      },
+      {
+        "name": "IBP Adapter Cable for Biosensor Transducers",
+        "nk_part_number": "K957 (JP-960P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "IBP Transducer Cable with direct connection",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Reusable, 3,5 m, 1 PK - 1 EA"
+      },
+      {
+        "name": "IBP Connection Cable for Edwards Lifesciences Transducer",
+        "nk_part_number": "L901 (JP-920P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "IBP Transducer Cable with direct connection",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Reusable, 3,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "IBP Connection Cable for Edwards Lifesciences",
+        "nk_part_number": "L902 (JP-921P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "IBP Transducer Cable with direct connection",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Reusable, 3,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "IBP Connection Cable for B.Braun Transducers",
+        "nk_part_number": "NKD-5203201",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "IBP Transducer Cables",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Reusable, 3,0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "IBP Connection Cableset for Codan Transducers",
+        "nk_part_number": "NKD-BDP178NK1",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "IBP Transducer Cables",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Set includes: Adapter cable with 1 pressure connection, contact board Xtrans and holding plate B180090 Reusable, 0,5m, 1 PK - 1 SET"
+      },
+      {
+        "name": "IBP Connection Cable for Codan Transducers",
+        "nk_part_number": "NKD-BDPT-1078",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "IBP Transducer Cables",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "1 Pressure Connection Reusable, 3,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "IBP Connection Cable PMK225 for Pulsion Transdusers",
+        "nk_part_number": "NKD-IBP/UTAH",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "IBP Transducer Cables",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "for Picco2 and Piccoplus with 1 Pressure Connection Reusable, 3,0m, 1 PK - 1 EA"
+      }
+    ],
+    "Temperature Measurement Accessories": [
+      {
+        "name": "Temperature Probe",
+        "nk_part_number": "E/TEMP-ESO/RECA",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Probes",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Esophageal/ Rectal Adults, Reusable, 3,0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Temperature Probe",
+        "nk_part_number": "E/TEMP-ESO/RECP",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Probes",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Esophageal/ Rectal Paediatrics, Reusable, 3,0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Temperature Probe",
+        "nk_part_number": "E/TEMP-SKIN",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Reusable Probes",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "EMS-1052",
+          "JE-921A",
+          "JE-921AG",
+          "MEB-2300",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)",
+          "MEB-9600"
+        ],
+        "description": "Skin Probe, Disk Type Adults/Paediatrics, Reusable, 3,0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Temperature Probe Cover",
+        "nk_part_number": "NKD-P249",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposables",
+        "compatible": [],
+        "description": "Disposable, 1 PK - 10 EA"
+      },
+      {
+        "name": "Mini-Tempheart Adhesive Pads",
+        "nk_part_number": "NKD-TEMPHEARTS4012",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disposables",
+        "compatible": [],
+        "description": "Disposable, Diameter: 1,13, 1 PK - 100 EA"
+      }
+    ],
+    "CO2 Accessories": [
+      {
+        "name": "cap-ONE CO2 Adapter Cable",
+        "nk_part_number": "K984 (JG-920P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Sensor Kits",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2703",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Reusable, 2,0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "cap-ONE CO2 Sensor Kit",
+        "nk_part_number": "P907 (TG-920P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Sensor Kits",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2703",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Intubated/Non-Intubated Patients,semi-quantitative measurement Reusable, 3,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "cap-ONE CO2 Sensor Kit",
+        "nk_part_number": "P908 (TG-921T3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Sensor Kits",
+        "compatible": [
+          "JE-921A",
+          "TEC-5500",
+          "TEC-7700",
+          "JE921AG"
+        ],
+        "description": "Intubated/Non-Intubated Patients,semi-quantitative measurement Reusable, 3,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "cap-ONE CO2 Sensor Kit",
+        "nk_part_number": "P910A (TG-980P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Sensor Kits",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2703",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Intubated and non-intubated patients, qualitative measurement, mainstream sensor Reusable, 3,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "cap-ONE CO2 Sensor",
+        "nk_part_number": "P923 (TG-121T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Sensor Kits",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2703",
+          "PVM-4700",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Intubated/Non-Intubated Patients Reusable, 1,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Calibration Gas",
+        "nk_part_number": "NKD-CO2GAS",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Intubated and Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900"
+        ],
+        "description": "Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Oxygen Cannula for Nasal Adapter",
+        "nk_part_number": "NKD-O2-CAP",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Intubated and Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "OLG-2800",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Disposable, 1 PK - 50 EA"
+      },
+      {
+        "name": "CO2 Gas Valve",
+        "nk_part_number": "NKD-VENTIL3",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Intubated and Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900"
+        ],
+        "description": "Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Airway Adapter",
+        "nk_part_number": "R807 (YG-214T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Intubated and Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Intubated, Dead Space: 1,8 ml Disposable, 1 PK - 30 EA"
+      },
+      {
+        "name": "cap-ONE nasal adapter with O2 tube",
+        "nk_part_number": "YG-231T",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Intubated and Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "PVM-2700",
+          "PVM-4700"
+        ],
+        "description": "Pediatrics, Disposable, 1 PK - 30 EA"
+      },
+      {
+        "name": "Airway Adapter",
+        "nk_part_number": "R801 (YG-101T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "intubated,semi-quantitative method; dead space: 5ml Disposable, 1 PK - 50 EA"
+      },
+      {
+        "name": "Airway Adapter",
+        "nk_part_number": "R804 (YG-111T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "intubated, dead space: 4ml Disposable, 1 PK - 30 EA"
+      },
+      {
+        "name": "Airway Adapter",
+        "nk_part_number": "R805 (YG-211T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "intubated, quantitative method, dead space: 4ml Disposable, 1 PK - 30 EA"
+      },
+      {
+        "name": "Airway Adapter",
+        "nk_part_number": "R806 (YG-213T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "intubated, quantitative method, , dead space: 1 ml Disposable, 1 PK - 30 EA"
+      },
+      {
+        "name": "CO2 Nasal Adapter",
+        "nk_part_number": "V921 (YG-120T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Disposable, 1 PK - 30 EA"
+      },
+      {
+        "name": "CO2 Nasal Adapter",
+        "nk_part_number": "V922 (YG-121T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Nasal and Oral Breathing Disposable, 1 PK - 30 EA"
+      },
+      {
+        "name": "CO2 Nasal Adapter",
+        "nk_part_number": "V923 (YG-122T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Nasal and Oral Breathing with Oxygen Cannula Holder Disposable, 1 PK - 30 EA"
+      },
+      {
+        "name": "CO2 Adapter Flow",
+        "nk_part_number": "V928 (YG-125T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Nasal and Oral Disposable, 1 PK - 10 EA"
+      },
+      {
+        "name": "CO2 Adapter",
+        "nk_part_number": "V929 (YG-135T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Nasal and Oral Disposable, 1 PK - 10 EA"
+      },
+      {
+        "name": "Cap-One Mask",
+        "nk_part_number": "V933 (YG-232T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Disposable, 1 PK - 10 EA"
+      },
+      {
+        "name": "Cap-One Mask",
+        "nk_part_number": "V935 (YG-242T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Disposable, 1 PK - 10 EA"
+      },
+      {
+        "name": "Cap-One Mask",
+        "nk_part_number": "V938A (YG-272T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Adults (L), Disposable, 1 PK - 10 EA"
+      },
+      {
+        "name": "Cap-One Mask",
+        "nk_part_number": "V938C (YG-282T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Adults (XL), Disposable, 1 PK - 10 EA"
+      },
+      {
+        "name": "Adult cap-ONE biteblock",
+        "nk_part_number": "V939A (YG-227T)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Disposable, 1 PK - 20 EA"
+      },
+      {
+        "name": "cap-ONE nasal adapter, strap, adult",
+        "nk_part_number": "YG-220T",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Strap Disposable, 1 PK - 30 EA"
+      },
+      {
+        "name": "cap-ONE nasal adapter",
+        "nk_part_number": "YG-221T",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Canulla Disposable, 1 PK - 30 EA"
+      },
+      {
+        "name": "cap-ONE nasal adapter",
+        "nk_part_number": "YG-230T",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Non-Intubated",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000",
+          "CSM-1500 (G5 Monitor)",
+          "CSM-1700",
+          "CSM-1900",
+          "EMS-1052",
+          "PVM-2700",
+          "PVM-4700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Strap Disposable, 1 PK - 30 EA"
+      },
+      {
+        "name": "Flow Adapter",
+        "nk_part_number": "P913 (TF-120P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Spirometry",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000"
+        ],
+        "description": "Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Flow Tube",
+        "nk_part_number": "P914 (YF-120P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Spirometry",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000"
+        ],
+        "description": "For Multigas Unit GF-120/220 Disposable, 1 PK - 5 EA"
+      },
+      {
+        "name": "Luer Cap",
+        "nk_part_number": "P915 (YS-094P0)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Spirometry",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000"
+        ],
+        "description": "For Multigas Unit GF-120/220 Disposable, 1 PK - 10 EA"
+      },
+      {
+        "name": "Water trap",
+        "nk_part_number": "V918 (YG-600P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Anesthesia Gas Measurments",
+        "compatible": [],
+        "description": "Disposable, 1 PK - 12 EA"
+      },
+      {
+        "name": "Airway Adapter T-Piece",
+        "nk_part_number": "V920A (YG-620P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Anesthesia Gas Measurments",
+        "compatible": [
+          "BSM-1700 (Life Scope PT)",
+          "BSM-3000",
+          "BSM-6000"
+        ],
+        "description": "Straight, Dead space: 5mL Disposable, 1 PK - 30 EA"
+      }
+    ],
+    "Resuscitation Accessories": [
+      {
+        "name": "Cable Manequin",
+        "nk_part_number": "E/JJ222V",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [],
+        "description": "requires Adapter Cable K342B for TEC 56xx, 83xx Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Shocklink-Adapter",
+        "nk_part_number": "E/SHOCKLINK-ADAPTE",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Adapter for Laerdal-Manequins Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Defibrillator Pads",
+        "nk_part_number": "H327A (P-511X)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "EMS-1052",
+          "TEC-5500",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "X-Ray compatible Adult/ Pediatrics, Disposable, 1 PK - 1 PR"
+      },
+      {
+        "name": "Defibrillator Pads",
+        "nk_part_number": "H329 (P-711)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "EMS-1052",
+          "TEC-5500",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "with CPR noise suppression, pad size: 11.4x12.8cm Adults/Paediatrics, Disposable, 1,5m, 1 PK - 1 PR"
+      },
+      {
+        "name": "Defibrillator Pads",
+        "nk_part_number": "H330 (P-713)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "EMS-1052",
+          "TEC-5500",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "with CPR noise suppression, pad size: 9.0x11.2cm Paediatrics (<1year), Disposable, 1,5m, 1 PK - 1 PR"
+      },
+      {
+        "name": "Defibrillator Pads",
+        "nk_part_number": "H331 (P-721)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "EMS-1052",
+          "TEC-5500",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "with CPR noise suppression Adults/Paediatrics, Disposable, 2,5m, 1 PK - 1 PR"
+      },
+      {
+        "name": "Adapter Cable",
+        "nk_part_number": "JC-765V",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "TEC-5500",
+          "TEC-7700"
+        ],
+        "description": "for Disposable Defibrillator Pads H312/H327/H324A Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Adapter Cable",
+        "nk_part_number": "K342A (JC-855V)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "for Disposable Defibrillator Pads NKD-H405/NKD-H406 Reusable, 3,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Adapter Cable",
+        "nk_part_number": "K342B (JC-865V)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "EMS-1052",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "for Disposable Defibrillator Pads H329, H330, H331 Reusable, 3,5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Cable Manequin Ambu",
+        "nk_part_number": "NKD-JJ221V",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Laerdal R2-Connector Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Disp. Defibrillation Pads",
+        "nk_part_number": "P-740K",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "AED-2100 (AED)",
+          "AED-3100 (AED)",
+          "TEC-5500",
+          "TEC-5600 (Defibrillator)",
+          "TEC-7700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "with CPR noise suppression, weight: 90g size: 115x114mm, conductive surface: Adults/Paediatrics, Disposable, 1,5m, 1 PK - 1 PR"
+      },
+      {
+        "name": "AED Cable Testing Unit",
+        "nk_part_number": "Y206A (AX-250V)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "EMS-1052",
+          "TEC-5500",
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "for NK-Pads Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "AED Cable Testing Unit for R2 Pads",
+        "nk_part_number": "Y206B (AX-251V)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "TEC-5500",
+          "TEC-5600 (Defibrillator)",
+          "TEC-7700",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "for R2 Pads Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Replacement Stickers",
+        "nk_part_number": "Y262B (YZ-044H0)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "TRN-2100K"
+        ],
+        "description": "Reusable, 1 PK- 10 EA"
+      },
+      {
+        "name": "Training Pads",
+        "nk_part_number": "YZ-061H6",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Defibrillator Pads",
+        "compatible": [
+          "TRN-2100K"
+        ],
+        "description": "Adult/ Pediatrics, Reusable, 1 PK - 1 PR"
+      },
+      {
+        "name": "Pediatric electrode assy",
+        "nk_part_number": "ND-844V",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Paddle Electrodes",
+        "compatible": [
+          "TEC 5600",
+          "TEC 8300"
+        ],
+        "description": "Neonates, Reusable, 1 PK - 1 PR"
+      },
+      {
+        "name": "Internal Paddle Electrode",
+        "nk_part_number": "ND-863V",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Paddle Electrodes",
+        "compatible": [
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "without discharge button; incl.handle & electrode Reusable, 35mm, 1 PK - 1 PR"
+      },
+      {
+        "name": "Internal Paddle Electrode",
+        "nk_part_number": "ND-894V",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Paddle Electrodes",
+        "compatible": [
+          "TEC-5600 (Defibrillator)",
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "with discharge button; incl.handle & electrode Reusable, 45mm, 1 PK - 1 PR"
+      },
+      {
+        "name": "2-Years Standby Battery",
+        "nk_part_number": "SB-212VK (X216A)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Batteries",
+        "compatible": [
+          "AED-2100 (AED)"
+        ],
+        "description": "Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "4-Years Standby Battery",
+        "nk_part_number": "SB-214VK (X217A)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Batteries",
+        "compatible": [
+          "AED-2100 (AED)"
+        ],
+        "description": "Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "4 years standard battery",
+        "nk_part_number": "SB-310V",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Batteries",
+        "compatible": [
+          "AED-3100 (AED)"
+        ],
+        "description": "Li/MnO2, 15 V; 3.3 Ah, not rechargeable Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "AC/DC Module",
+        "nk_part_number": "SC-831V",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Batteries",
+        "compatible": [
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Lithium-Ion Battery Pack",
+        "nk_part_number": "X077 (SB-831V)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Batteries",
+        "compatible": [
+          "TEC-8300 (Defibrillator)"
+        ],
+        "description": "Recharchable Lithium-Ion Battery Pack with 14.4 V and 6300mAh Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Rechargeable Battery",
+        "nk_part_number": "X233 (SB-220V)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Batteries",
+        "compatible": [
+          "AED-2150"
+        ],
+        "description": "25.9 V, 1600mAh, Lithium-Ion, weight 450g Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Carry bag",
+        "nk_part_number": "E/DEFIBAG56",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Bags",
+        "compatible": [
+          "TEC-5600 (Defibrillator)"
+        ],
+        "description": "TEC-56xx fits all models Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Tactical ARM Case",
+        "nk_part_number": "E/DFT-ARM-CASE",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Bags",
+        "compatible": [
+          "ARM-1000"
+        ],
+        "description": "ARM-1000 Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Carrying Bag",
+        "nk_part_number": "Y184A (YC-210V)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Bags",
+        "compatible": [
+          "AED-2100 (AED)"
+        ],
+        "description": "Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Carrying Bag",
+        "nk_part_number": "YC-310V",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Bags",
+        "compatible": [
+          "AED-3100 (AED)"
+        ],
+        "description": "Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Wrist straps Pair",
+        "nk_part_number": "E/RCF-E1013EN",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Other Accessories",
+        "compatible": [
+          "E/DFT-ARM-1000"
+        ],
+        "description": "Reusable, 1 PK .- 3 KT - 1 PR"
+      },
+      {
+        "name": "Patient Interface Pad",
+        "nk_part_number": "E/RPP-G1003GG",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Other Accessories",
+        "compatible": [
+          "E/DFT-ARM-1000"
+        ],
+        "description": "Reusable, 1 PK - 3 EA"
+      },
+      {
+        "name": "SD-Card",
+        "nk_part_number": "E/SDCARD",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Other Accessories",
+        "compatible": [],
+        "description": "2 GB Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Mounting bracket",
+        "nk_part_number": "E/SG-565-MOUNT",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Other Accessories",
+        "compatible": [
+          "TEC 5600"
+        ],
+        "description": "Mounting kit for NIBP module Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Contact Gel",
+        "nk_part_number": "F015A (Z-101BA)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Other Accessories",
+        "compatible": [],
+        "description": "Gelaid Defibrillator Contact Gel, 100 g Reusable, 1 PK - 1 TU"
+      },
+      {
+        "name": "Chest Sheet",
+        "nk_part_number": "Y204A (YZ-056H8)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Other Accessories",
+        "compatible": [
+          "CPR-1100"
+        ],
+        "description": "Reusable, 1 PK - 5 EA"
+      },
+      {
+        "name": "Hand cushion",
+        "nk_part_number": "Y204B (YZ-056H9)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Other Accessories",
+        "compatible": [
+          "CPR-1100"
+        ],
+        "description": "Reusable, 1 PK - 1 EA"
+      }
+    ],
+    "EEG Accessories": [
+      {
+        "name": "Disk Electrodes",
+        "nk_part_number": "H471 (BE-910P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "2-Channel",
+        "compatible": [
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "BSM-9100"
+        ],
+        "description": "For AE-918P Reusable, 0,8m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Collodion Electrodes",
+        "nk_part_number": "H472 (BE-920P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "2-Channel",
+        "compatible": [
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "BSM-9100"
+        ],
+        "description": "For AE-918P Reusable, 0,8m, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG Electrode Lead",
+        "nk_part_number": "K461 (BE-930P,)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "2-Channel",
+        "compatible": [
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "BSM-9100"
+        ],
+        "description": "For Disposable Electrodes, for AE-910P/918P, snap Reusable, 0,8m, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG connection Cable",
+        "nk_part_number": "L461 (JE-905P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "2-Channel",
+        "compatible": [
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "BSM-9100"
+        ],
+        "description": "for AE-910P/918P Reusable, 3m, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG connection Cable",
+        "nk_part_number": "L462 (JE-906P)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "8-Channel",
+        "compatible": [
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "BSM-9100"
+        ],
+        "description": "For AE-910P/AE-918P Reusable, 3m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Skin Preparation Gel",
+        "nk_part_number": "F020 (YZ-0019)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Skin Preparation",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "reduces the electrode skin impedance Adults/Paediatrics, Disposable, 135g, 1 PK - 2 EA"
+      },
+      {
+        "name": "Electrode Board Adapter for ElectroCaps",
+        "nk_part_number": "NKD-E2",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Caps",
+        "compatible": [
+          "BSM-2500",
+          "BSM-3000",
+          "BSM-6000",
+          "BSM-9100"
+        ],
+        "description": "1.5 mm touch proof connector Reusable, 1 PK - 1 EA"
+      }
+    ],
+    "Neurology EEG Accessories": [
+      {
+        "name": "CerebAir Accessories Kit",
+        "nk_part_number": "E/CEREBAIR-ACCSET",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "CerebAir Accessories",
+        "compatible": [
+          "AE-120A"
+        ],
+        "description": "Rear belt, chin belt, top belt and forehead pad Adults, Disposable, 1 PK - 4 EA"
+      },
+      {
+        "name": "CerebAir Accessories Kit",
+        "nk_part_number": "H467B (YZ-003A4)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "CerebAir Accessories",
+        "compatible": [
+          "AE-120A"
+        ],
+        "description": "Rear belts, chin belts, top belts and forehead pads Adults, Reusable, 1 PK - 3 SET - 4 EA"
+      },
+      {
+        "name": "CerebBand",
+        "nk_part_number": "H564B (BE-090AS)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "CerebAir Accessories",
+        "compatible": [],
+        "description": "Small Adults, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "CerebBand",
+        "nk_part_number": "H564C (BE-090AM)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "CerebAir Accessories",
+        "compatible": [],
+        "description": "Medium Adults, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "CerebBand Connection Cable",
+        "nk_part_number": "K640A (BM-090Y)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "CerebAir Accessories",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Cable with 10 leads to connect CerebTrodes and electrodes to the junction box Adults, Reusable, Cable length: 2.9m, 1 PK - 1 EA"
+      },
+      {
+        "name": "CerebTrobe EEG Electrode Kit",
+        "nk_part_number": "E/CEREBTRODE-6PAT",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "CerebAir Electrodes",
+        "compatible": [
+          "AE-120A"
+        ],
+        "description": "CerebTrodes and ground electrodes Adults, Disposable, 1 PK - 6 SET - 7 EA;"
+      },
+      {
+        "name": "CerebTrode EEG Electrode",
+        "nk_part_number": "H548A (NE-091S7)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "CerebAir Electrodes",
+        "compatible": [
+          "AE-120A"
+        ],
+        "description": "CerebTrode electrodes Adults, Disposable, 1 PK - 6 SET - 7 EA"
+      },
+      {
+        "name": "EEG Ground electrode",
+        "nk_part_number": "H548B (NE-090S1)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "CerebAir Electrodes",
+        "compatible": [
+          "AE-120A"
+        ],
+        "description": "Ground electrodes Adults, Disposable, 1 PK - 6 EA"
+      },
+      {
+        "name": "EEG Disk Elecrode",
+        "nk_part_number": "H503A (NE-113A)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disk Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "For EMG and EOG diagnostic studies Adults/Paediatrics/Neonates, Reusable, Disk diameter: 11mm; Touchproof: 1.5mm; Cable length: 1.5m, 1 PK - 26 EA"
+      },
+      {
+        "name": "EEG Disk Elecrode",
+        "nk_part_number": "H503B (NE-114A)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disk Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "For EMG and EOG diagnostic studies Adults/Paediatrics/Neonates, Reusable, Disk diameter: 11mm; Touchproof: 1.5mm; Cable length: 0.8m, 1 PK - 26 EA"
+      },
+      {
+        "name": "EEG Disk Elecrode",
+        "nk_part_number": "H503E (NE-118A)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disk Electrodes",
+        "compatible": [
+          "AE-120A"
+        ],
+        "description": "For occipital (O1 + O2) positions, red and white Adults, Reusable, Disk diameter: 11mm; Touchproof: 1.5mm; Cable length: 15cm, - 6 EA"
+      },
+      {
+        "name": "EEG Disk Elecrode",
+        "nk_part_number": "H528 (NE-136B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disk Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "For evoked potentials diagnostic studies Adults/Paediatrics/Neonates, Reusable, Disk diameter: 10mm; Touchproof: 1.5mm; Cable length: 0.3m, 1 PK - 3 EA"
+      },
+      {
+        "name": "EEG Cup Electrode",
+        "nk_part_number": "H526 (NE-134A)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Cup Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Collodion electrodes Adults/Paediatrics/Neonates, Reusable, Disk diameter: 10mm; Touchproof: 1.5mm; Cable length: 1.5m, 1 PK - 12 EA"
+      },
+      {
+        "name": "EEG Cup Electrode",
+        "nk_part_number": "H527 (NE-136A)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Cup Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Collodion electrodes Adults/Paediatrics/Neonates, Reusable, Disk diameter: 10mm; Touchproof: 1.5mm; Cable length: 0.7m, 1 PK - 12 EA"
+      },
+      {
+        "name": "Needle Electrode",
+        "nk_part_number": "H537A (NE-224S)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Needle Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "For EEG and eveoked potentials diagnostic studies Adults/Paediatrics, Reusable, Needle: 0.22mm x 22.5mm; Touchproof: 1.5mm; length: 1.5m, 1 PK - 20 EA"
+      },
+      {
+        "name": "Subdermal Needle Electrode",
+        "nk_part_number": "NE-110B",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Needle Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Single, stainless steel Adults/Paediatrics, Disposable, Needle: 0.4mm x 13mm (27G); Touchproof: 1.5mm; Cable length: 1.0m, 1 PK - 25 EA"
+      },
+      {
+        "name": "Subdermal Needle Electrode",
+        "nk_part_number": "NE-115B",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Needle Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Single, stainless steel Adults/Paediatrics, Disposable, Needle: 0.4mm x 13mm (27G); Touchproof: 1.5mm; Cable length: 1.5m, 1 PK - 25 EA"
+      },
+      {
+        "name": "Subdermal Needle Electrode",
+        "nk_part_number": "NE-120B",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Needle Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Single, stainless steel Adults/Paediatrics, Disposable, Needle: 0.4mm x 13mm (27G); Touchproof: 1.5mm; Cable length: 2.0m, 1 PK - 25 EA"
+      },
+      {
+        "name": "EEG Earlobe Electrode Kit",
+        "nk_part_number": "H540A (NE-311A)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Earlobe Electrodes",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Earlobe electrode and ear clip Adults/Paediatrics, Reusable, Disk diameter: 10mm; Touchproof: 1.5mm; Cable 1.5m, 1 PK - 2 EA"
+      },
+      {
+        "name": "EEG Earlobe Electrode Ear Clip",
+        "nk_part_number": "H541 (NE-301B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Earlobe Electrodes",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Earlobe electrode ear clip Adults/Paediatrics, Reusable, 1 PK - 10 EA"
+      },
+      {
+        "name": "EEG Earlobe Electrode H543B",
+        "nk_part_number": "(NE-313AG EEG)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Earlobe Electrodes",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Sintered Ag/AgCl electrode Adults/Paediatrics, Reusable, Touchproof: 1.5mm; Cable length: 0.9m, 1 PK -"
+      },
+      {
+        "name": "EEG Bridge Electrode H542B",
+        "nk_part_number": "(BE-0005W G)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Bridge Electrodes",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Sintered Ag/AgCl flexible electrode, beige in colour with a rectangular shaped Adults/Paediatrics, Reusable, 1 PK - 23 EA"
+      },
+      {
+        "name": "EEG Adhesive Electrode H544A",
+        "nk_part_number": "(AEEG NE-05IS3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "aEEG Electrodes",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Ag/AgCl hydrogel electrode Neonates, Disposable, Electrode: 25mm x 14mm; Touchproof: 1.5mm; Cable 0.6m, 1 PK - 5 SET - 5 EA"
+      },
+      {
+        "name": "aEEG Needle Electrodes",
+        "nk_part_number": "NKD-NM2512",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "aEEG Electrodes",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Needle electrodes Neonates, Disposable, Needle: 0.25mm x 12mm (31G); Touchproof: 1.5mm; length: 1.5m, 1 PK - 10 SET - 5 EA"
+      },
+      {
+        "name": "Waveguard cap, Baby, 36-39cm",
+        "nk_part_number": "E/WAVEGUARD/B",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Waveguard EEG Caps",
+        "compatible": [
+          "Neurofax EEG"
+        ],
+        "description": "Waveguard EEG cap, Baby, 36-39cm, Yellow, 1.5m cable and Honda connector Neonatal, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Waveguard cap, Infant, 39-43cm",
+        "nk_part_number": "E/WAVEGUARD/I",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Waveguard EEG Caps",
+        "compatible": [
+          "Neurofax EEG"
+        ],
+        "description": "Waveguard EEG cap, Infant, 39-43cm, Red, 1.5m cable and Honda connector Neonatal, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Waveguard cap, Child, 43-47cm",
+        "nk_part_number": "E/WAVEGUARD/C",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Waveguard EEG Caps",
+        "compatible": [
+          "Neurofax EEG"
+        ],
+        "description": "Waveguard EEG cap, Child, 43-47cm, Blue, 1.5m cable and Honda connector Paediatric, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Waveguard cap, Small, 47-51cm",
+        "nk_part_number": "E/WAVEGUARD/S",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Waveguard EEG Caps",
+        "compatible": [
+          "Neurofax EEG"
+        ],
+        "description": "Waveguard EEG cap, Small, 47-51cm, Yellow/Black, 1.5m cable and Honda connector Adult/Paediatric, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Waveguard cap, Medium, 51-56cm",
+        "nk_part_number": "E/WAVEGUARD/M",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Waveguard EEG Caps",
+        "compatible": [
+          "Neurofax EEG"
+        ],
+        "description": "Waveguard EEG cap, Medium, 51-56cm, Red/Black, 1.5m cable and Honda connector Adult, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Waveguard cap, Large, 56-61cm",
+        "nk_part_number": "E/WAVEGUARD/L",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Waveguard EEG Caps",
+        "compatible": [
+          "Neurofax EEG"
+        ],
+        "description": "Waveguard EEG cap, Large, 56-61cm, Blue/Black, 1.5m cable and Honda connector Adult, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Waveguard cap connector, DE",
+        "nk_part_number": "E/WAVEGUARD/AD",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Waveguard EEG Caps",
+        "compatible": [
+          "Neurofax EEG"
+        ],
+        "description": "Waveguard EEG cap connector for EEG systems using the German montage Adult, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG Silicone Cap Chin Strap - Adult",
+        "nk_part_number": "E/SILICONE/CAP",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "EEG Caps",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg"
+        ],
+        "description": "Adult, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG Headcap, Newborn, 28-32cm",
+        "nk_part_number": "E/HEADCAP/NB",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "EEG Caps",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg"
+        ],
+        "description": "Prewired EEG headcap, Newborn, 28-32cm, Brown, 1.3m cable and DIN connector Neonatal, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG Headcap, Small Paediatric, 33-37cm",
+        "nk_part_number": "E/HEADCAP/SP",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "EEG Caps",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg"
+        ],
+        "description": "Prewired EEG headcap, Small Paediatric, 33-37cm, Pink, 1.3m cable and DIN connector Paediatric, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG Headcap, Paediatric, 38-42cm",
+        "nk_part_number": "E/HEADCAP/P",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "EEG Caps",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg"
+        ],
+        "description": "Prewired EEG headcap, Paediatric, 38-42cm, Light Blue, 1.3m cable and DIN connector Paediatric, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG Headcap, Small Adult, 43-47cm",
+        "nk_part_number": "E/HEADCAP/S",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "EEG Caps",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg"
+        ],
+        "description": "Prewired EEG headcap, Small Adult, 43-47cm, Green, 1.3m cable and DIN connector Adult/Paediatric, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG Headcap, Medium Adult, 48-52cm",
+        "nk_part_number": "E/HEADCAP/M",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "EEG Caps",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg"
+        ],
+        "description": "Prewired EEG headcap, Medium Adult, 48-52cm, Yellow, 1.3m cable and DIN connector Adult, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG Headcap, Large Adult, 53-57cm",
+        "nk_part_number": "E/HEADCAP/L",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "EEG Caps",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg"
+        ],
+        "description": "Prewired EEG headcap, Large Adult, 53-57cm, Red, 1.3m cable and DIN connector Adult, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG Headcap, XLarge Adult, 58-62cm",
+        "nk_part_number": "E/HEADCAP/XL",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "EEG Caps",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg"
+        ],
+        "description": "Prewired EEG headcap, Extra Large Adult, 58-62cm, Blue, 1.3m cable and DIN connector Adult, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG headcap connector, adult",
+        "nk_part_number": "E/HEADCAP/AD1",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "EEG Caps",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg"
+        ],
+        "description": "EEG headcap connector (DIN to Touchproof connectors) for EEG systems using EEG Headcap (E/HEADCAP/xx), adult caps Adult, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "EEG headcap connector, newborn & paeds",
+        "nk_part_number": "E/HEADCAP/AD2",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "EEG Caps",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg"
+        ],
+        "description": "EEG headcap connector (DIN to Touchproof connectors) for EEG systems using EEG Headcap (E/HEADCAP/xx), newborn and paediatric caps Paediatric/Neonatal, Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "ECG Connection Cable K512A",
+        "nk_part_number": "(BC-112B DIN)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG Cables",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Red and yellow Adults/Paediatrics, Reusable, Touchproof: 1.5mm; Cable length: 2.0m, 1 PK -"
+      },
+      {
+        "name": "Extension Cable",
+        "nk_part_number": "NKD-KR26DIN15",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "ECG Cables",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "DIN jack to touch proof connector Adults/Paediatrics, Reusable, Touchproof: 1.5mm; Cable length: 1.5m, 1 PK -"
+      },
+      {
+        "name": "Electrode Connection Cable",
+        "nk_part_number": "K518B",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Bridge Cables",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Blue Adults/Paediatrics, Reusable, Touchproof: 1.5mm; Cable length: 0.9m, 1 PK -"
+      },
+      {
+        "name": "Mini aEEG Input Box",
+        "nk_part_number": "NKD-AEEG/MINIBOX",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "aEEG Cables",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "5x inputs for 2-channel aEEG Neonates, Reusable, Cable length: 4m, 1 PK - 1 EA"
+      },
+      {
+        "name": "64-ch Mini Junction Box Pouch",
+        "nk_part_number": "NKD-POUCH-JE225",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Pouches",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Blue Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "38-ch Mini Junction Box Pouch",
+        "nk_part_number": "NKD-POUCH-JE922",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Pouches",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Blue Reusable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Disposable Blunted Needle, Plastic",
+        "nk_part_number": "E/NEEDLE/BLUNT",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg"
+        ],
+        "description": "Disposable Blunted Needle, plastic and nonsterile Adult/Paediatric/Neonatal, Disposable, 1 PK - 100 EA"
+      },
+      {
+        "name": "Electrode Positioning Ruler Kit",
+        "nk_part_number": "NF-EEG/HELP",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "For both normal and small sized heads Adults/Paediatrics, Disposable, 1 PK - 2 EA"
+      },
+      {
+        "name": "BraiNet Jack Box Overlay",
+        "nk_part_number": "NKD-BN505",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "10/20 montage labels Disposable, 1 PK - 1 EA"
+      },
+      {
+        "name": "Electrode Felt Pad Kit",
+        "nk_part_number": "NKD-FILZ",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Felt pads Adults/Paediatrics, Disposable, Pad diameter: 25mm, 1 PK - 100 EA"
+      },
+      {
+        "name": "O-Ring Kit",
+        "nk_part_number": "NKD-O-RING",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "O-rings Adults/Paediatrics, Disposable, Internal diameter: 8.5mm, 1 PK - 50 EA"
+      }
+    ],
+    "Neurology EMG Accessories": [
+      {
+        "name": "Connection cable for concentric EMG needles",
+        "nk_part_number": "NKD-BM113A",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Concentric Cables",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "5-Pin DIN connector and shilded slip needle connector Reusable, Cable length: 1.5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Concentric Needle Electrode",
+        "nk_part_number": "NKD-NM3525",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Concentric Needles",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Classic line Disposable, Needle: 0.35mm x 25mm, 1 PK - 25 EA"
+      },
+      {
+        "name": "Concentric Needle Electrode",
+        "nk_part_number": "NKD-NM4525",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Concentric Needles",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Classic line Disposable, Needle: 0.45mm x 25mm, 1 PK - 25 EA"
+      },
+      {
+        "name": "Concentric Needle Electrode",
+        "nk_part_number": "NKD-NM4525P",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Concentric Needles",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Premium line Disposable, Needle: 0.45mm x 25mm, 1 PK - 25 EA"
+      },
+      {
+        "name": "Concentric Needle Electrode",
+        "nk_part_number": "NKD-NM4537",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Concentric Needles",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Classic line Disposable, Needle: 0.45mm x 37mm, 1 PK - 25 EA"
+      },
+      {
+        "name": "Concentric Needle Electrode",
+        "nk_part_number": "NKD-NM4537P",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Concentric Needles",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Premium line Disposable, Needle: 0.45mm x 37mm, 1 PK - 25 EA"
+      },
+      {
+        "name": "Concentric Needle Electrode",
+        "nk_part_number": "NKD-NM4540",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Concentric Needles",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Classic line Disposable, Needle: 0.45mm x 40mm, 1 PK - 25 EA"
+      },
+      {
+        "name": "Concentric Needle Electrode",
+        "nk_part_number": "NKD-NM4545",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Concentric Needles",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Classic line Disposable, Needle: 0.45mm x 45mm, 1 PK - 25 EA"
+      },
+      {
+        "name": "Concentric Needle Electrode",
+        "nk_part_number": "NKD-NM4550",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Concentric Needles",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Classic line Disposable, Needle: 0.45mm x 50mm, 1 PK - 25 EA"
+      },
+      {
+        "name": "Concentric Needle Electrode",
+        "nk_part_number": "NKD-NM4550P",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Concentric Needles",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Premium line Disposable, Needle: 0.45mm x 50mm, 1 PK - 25 EA"
+      }
+    ],
+    "Neurology NCS Accessories": [
+      {
+        "name": "Active Electrode Cable",
+        "nk_part_number": "BM-230B",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Cables",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Cable with three 1.5mm touch proof connectors for electrodes Reusable, Cable length: 1.5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "NCS Connection Cable",
+        "nk_part_number": "K625A (BM-001B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Cables",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For use with 3 electrodes Reusable, Cable length: 1.5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "NCS Connection Cable",
+        "nk_part_number": "K625B (BM-002B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Cables",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For use with 2 electrodes Reusable, Cable length: 1.5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Adapter Cable",
+        "nk_part_number": "YZ-0172",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Adapter Cables",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For use with stimulation and finger electrodes Reusable, Cable length: 0.2m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Surface Electrodes",
+        "nk_part_number": "H634 (NM-312S)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Surface Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Two Ag/AgCl surface electrodes Reusable, Disk diameter: 1cm; Cable length: 1.4m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Surface Stimulation Electrode",
+        "nk_part_number": "H635 (NM-410S)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Surface Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Paediatric surface stimulation electrode using felt electrodes that are spaced apart and two velcro straps Paediatrics, Reusable, Electrode diameter: 4mm; Cable length: 2.0m; Hand strap: 0.7cm; Foot strap: 58 x 0.7cm, 1 PK - 1 EA; 1 PK -"
+      },
+      {
+        "name": "Surface Stimulation Electrode",
+        "nk_part_number": "H636 (NM-420S)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Surface Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Adult surface stimulation electrode using felt electrodes that are spaced 23mm and two velcro straps Adults, Reusable, Electrode diameter: 8mm; Cable length: 2.0m; Hand strap: 1.5cm; Foot strap: 78 x 1.5cm, 1 PK - 1 EA; 1 PK -"
+      },
+      {
+        "name": "Surface Electrodes",
+        "nk_part_number": "H638 (NM-315S)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Surface Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Two Ag/AgCl surface electrodes Reusable, Disk diameter: 1cm; Cable length: 2.3m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Surface Stimulation Electrode",
+        "nk_part_number": "H639 (NM-422B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Surface Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Adult surface stimulation electrode using stainless steel electrodes that are spaced 23mm apart and two velcro straps Adults, Reusable, Electrode diameter: 8mm; Cable length: 2.0m; Hand strap: 1.5cm; Foot strap: 78 x 1.5cm, 1 PK - 1 EA; 1 PK -"
+      },
+      {
+        "name": "Surface Stimulation Electrode",
+        "nk_part_number": "NKD-STL",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Surface Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Block electrode using felt electrodes that are spaced 20mm apart and velcro strap Reusable, Electrode: 20mm x 7mm; Cable length: 1.5m; strap: 42 x 2cm, 1 PK PK -"
+      },
+      {
+        "name": "Finger Electrode",
+        "nk_part_number": "H653 (NM-450S)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Finger Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Finger electrode suitable for both stimulation and recording Adults, Reusable, Electrode loop: 25mm; Cable length: 2.0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Finger Electrode",
+        "nk_part_number": "H659 (NM-451B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Finger Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Finger electrode suitable for both stimulation and recording Reusable, Electrode loop: 140mm; Touchproof: 1.5mm; Cable length: 0.3m, 1 EA"
+      },
+      {
+        "name": "NCS Ground Electrode",
+        "nk_part_number": "H693 (NM-310Y)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Ground Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "One ground electrode Disposable, Electrode: 84mm x 42mm; Touchproof: 1.5mm; Cable length: 1.8m, 10 EA"
+      },
+      {
+        "name": "Somato Control Box - Fixed",
+        "nk_part_number": "RY-230B",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Stimulator Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Onboard controls for stimulation, increasing or decreasing stimulation intensity configurable function buttons for ease of use Reusable, Cable length: 2.8m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Somato Control Box - Adjustable",
+        "nk_part_number": "RY-960B",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Stimulator Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Onboard controls for stimulation, increasing or decreasing stimulation intensity adjustable electrode unit angle for ease of use Reusable, Cable length: 3.0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Stimulator Tips",
+        "nk_part_number": "E/STIMTIPS",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "Neuropack X1",
+          "Neuropack S3"
+        ],
+        "description": "For use with the adult surface stimulation electrode Adult/Pediatric, Reusable, 1 PK - 2 EA"
+      },
+      {
+        "name": "Felt Tips",
+        "nk_part_number": "H646",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For use with the adult surface stimulation electrode Adults, Reusable, Electrode diameter: 8mm, 1 PK - 100 EA"
+      },
+      {
+        "name": "Felt Tips",
+        "nk_part_number": "H647",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For use with the paediatric surface stimulation electrode Paediatrics, Reusable, Electrode diameter: 4mm, 1 PK - 100 EA"
+      },
+      {
+        "name": "Velcro strap",
+        "nk_part_number": "NKD-STL-BAND",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For use with the block electrode Reusable, strap: 42cm x 2cm, 1 PK - 1 EA"
+      },
+      {
+        "name": "Felt Tips",
+        "nk_part_number": "NKD-STLF",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For use with the block electrode Reusable, Electrode: 20mm x 7mm, 1 PK - 10 EA"
+      },
+      {
+        "name": "Somato Control Box Accessory Attachment",
+        "nk_part_number": "YZ-004A4",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Allows for the connection of stimulation electrodes directly to the Somato Control Reusable, 1 PK - 1 EA"
+      }
+    ],
+    "Neurology EP Accessories": [
+      {
+        "name": "Evoked EEG electrodes",
+        "nk_part_number": "H852A (NE-132B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disk Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Ag electrode with shielded cable and 2-PIN DIN keyhole connector Adults/Paediatrics, Reusable, Cable length: 1.5m, 1 PK - 5 EA; 1 PK -"
+      },
+      {
+        "name": "Subdermal Needle Electrode",
+        "nk_part_number": "NE-215B",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Needle Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Prewired twisted pair with stainless steel needles Adults/Paediatrics, Disposable, Needle: 0.4mm x 13mm (27G); Touchproof: 1.5mm; Cable length: 1.5m, 1 PK - 10 SET - 2 EA"
+      },
+      {
+        "name": "Headphone Replacement Cable",
+        "nk_part_number": "K101",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Ear Stimulators",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "5-PIN connector Reusable, Cable length: 3.0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Headphones",
+        "nk_part_number": "Y849A (DR-531B-14)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Ear Stimulators",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For 2-channel auditory evoked potential stimulation with 5-PIN connector Adults, Reusable, Ear pad: 117mm x 92mm; Headband: 160mm; Cable length: PK - 1 EA"
+      },
+      {
+        "name": "Headphones",
+        "nk_part_number": "Y849B (DR-531B-15)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Ear Stimulators",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For 2-channel auditory evoked potential stimulation with 5-PIN connector Paediatrics, Reusable, Ear pad: 70mm x 70mm; Headband: 110mm; Cable length: 3.0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Earphones",
+        "nk_part_number": "YE-103J",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Ear Stimulators",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For 2-channel auditory evoked potential stimulation with 5-PIN connector Adults/Paediatrics, Reusable, Ear Pad: 117mm x 92mm; Headband: 160mm; length: 3.0m, 1 PK - 1 EA; 1 PK -"
+      },
+      {
+        "name": "LED Goggles",
+        "nk_part_number": "LS-102J",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Eye Stimulators",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For visual evoked potential stimulation Adults, Reusable, Cable length: 3.0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "Evoked Potential Connection Cable",
+        "nk_part_number": "K626 (BM-910B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Cables",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Shielded cable with a 9-PIN DIN connector Reusable, Cable length: 3.0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "ABR Connection Cable",
+        "nk_part_number": "K627 (BM-911B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Cables",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Shielded cable with a 9-PIN DIN connector Reusable, Cable length: 3.0m, 1 PK - 1 EA"
+      },
+      {
+        "name": "AEP Extension Cable",
+        "nk_part_number": "K635A (BM-701B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Extension Cables",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "5-PIN socket and connector Reusable, Cable length: 3.5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "VEP Extension Cable",
+        "nk_part_number": "K635B (BM-702B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Extension Cables",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "4-PIN socket and connector Reusable, Cable length: 3.5m, 1 PK - 1 EA"
+      },
+      {
+        "name": "EMG Jumper Cable",
+        "nk_part_number": "K617B (NE-430B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Unshielded cable with two 1-PIN DIN connectors Reusable, Cable length: 0.15m, 1 PK - 5 EA"
+      },
+      {
+        "name": "Evoked Potential Jumper Cable",
+        "nk_part_number": "K617C (NE-432B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Unshielded cable with two 2-PIN DIN keyhole connectors Reusable, Cable length: 0.15m, 1 PK - 5 EA"
+      },
+      {
+        "name": "Headphone Ear Cushions",
+        "nk_part_number": "Y849C (RP-86004)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For headphones Adults, Reusable, Ear pad: 117mm x 92mm, 1 PK - 2 EA"
+      },
+      {
+        "name": "Headphone Ear Cushions Y849D",
+        "nk_part_number": "(15VA0051A3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "For headphones Paediatrics, Reusable, Ear pad: 70mm x 70mm, 1 PK - 2 EA"
+      },
+      {
+        "name": "Earbuds",
+        "nk_part_number": "Y855A (YZ-002A3)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Large earbuds for earphones Adults, Reusable, Earbud diameter: 13mm, 1 PK - 20 EA"
+      },
+      {
+        "name": "Earbuds",
+        "nk_part_number": "Y855B (YZ-002A4)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Medium earbuds for earphones Adults/Paediatrics, Reusable, Earbud diameter: 11mm, 1 PK - 20 EA"
+      },
+      {
+        "name": "Earbuds",
+        "nk_part_number": "Y855C (YZ-002A5)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Small earbuds for earphones Adults/Paediatrics, Reusable, Earbud diameter: 10mm, 1 PK - 20 EA"
+      },
+      {
+        "name": "Earbuds",
+        "nk_part_number": "Y855D (YZ-002A6)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Extra small earbuds for earphones Paediatrics, Reusable, Earbud diameter: 8mm, 1 PK - 20 EA"
+      },
+      {
+        "name": "Sound Conduction Tubes",
+        "nk_part_number": "Y855E (YZ-002A7)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Accessories",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Required to fit earbuds to earphones Reusable, Tube length: 44mm, 1 PK - 10 EA"
+      }
+    ],
+    "Neurology Ground Electrode Accessories": [
+      {
+        "name": "Ground Disk Electrode",
+        "nk_part_number": "H658 (NM-550B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disk Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Stainless steel and disk shaped with 1-PIN DIN connector Adults, Reusable, Disk diameter: 30mm; Touchproof: 1.5mm; Cable length: 1.5m, - 1 EA"
+      },
+      {
+        "name": "Ground Disk Electrode",
+        "nk_part_number": "H658A (NM-551B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Disk Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Stainless steel and disk shaped with 1-PIN DIN connector Adults, Reusable, Disk diameter: 30mm; Touchproof: 1.5mm; Cable length: 1.5m, - 1 EA"
+      },
+      {
+        "name": "Ground Strap Electrode",
+        "nk_part_number": "H662 (NM-501B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Strap Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Wrist strap including cable with clip and 2-PIN DIN keyhole connector Adults, Reusable, Strap: 45cm; Cable length: 1.5m, 1 PK - 2 EA"
+      },
+      {
+        "name": "Ground Strap Electrode",
+        "nk_part_number": "H662A (NM-506B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Strap Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Wrist strap including cable with clip and 1-PIN DIN connector Adults, Reusable, Strap: 45cm; Cable length: 0.3m, 1 PK - 2 EA"
+      },
+      {
+        "name": "Ground Strap Electrode",
+        "nk_part_number": "H663 (NM-502B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Strap Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Ankle strap including cable with clip and 2-PIN DIN keyhole connector Adults, Reusable, Strap: 75cm; Cable length: 1.5m, 1 PK - 2 EA"
+      },
+      {
+        "name": "Ground Strap Electrode",
+        "nk_part_number": "H664 (NM-503B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Strap Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Wrist strap including cable with clip and 2-PIN DIN keyhole connector Paediatrics, Reusable, Strap: 31cm; Cable length: 1.5m, 1 PK - 2 EA"
+      },
+      {
+        "name": "Ground Strap Electrode",
+        "nk_part_number": "H664A (NM-505B)",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Strap Electrodes",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600"
+        ],
+        "description": "Wrist strap including cable with clip and 1-PIN DIN connector Paediatrics, Reusable, Strap: 31cm; Cable length: 0.3m, 1 PK - 2 EA"
+      }
+    ],
+    "Neurology Skin Preparation Accessories": [
+      {
+        "name": "OneStep Abrasive Plus",
+        "nk_part_number": "E/ABRASIVPLUS",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Gel",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg",
+          "Neuropack X1",
+          "Neuropack"
+        ],
+        "description": "OneStep Abrasive Plus, 120g Adult/Paediatric, Disposable, 120g, 1 PK - 1 EA"
+      },
+      {
+        "name": "OneStep Clear Gel",
+        "nk_part_number": "E/CLEARGEL",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Gel",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg",
+          "Neuropack X1",
+          "Neuropack"
+        ],
+        "description": "OneStep Clear Gel, 500g Adult/Paediatric/Neonatal, Disposable, 500g, 1 PK - 1 EA"
+      },
+      {
+        "name": "OneStep EEG Gel",
+        "nk_part_number": "E/EEGGEL",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Gel",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg",
+          "Neuropack X1",
+          "Neuropack"
+        ],
+        "description": "OneStep EEG Gel, 120g Adult/Paediatric/Neonatal, Disposable, 120g, 1 PK - 1 EA"
+      },
+      {
+        "name": "CerebTrode Electrode Gel",
+        "nk_part_number": "Z-101N02",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Gel",
+        "compatible": [
+          "AE-120A"
+        ],
+        "description": "Tube Adults, Disposable, 100g, 1 PK - 2 EA"
+      },
+      {
+        "name": "OneStep EEG Adhesive",
+        "nk_part_number": "E/EEGADHESIVE",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Paste",
+        "compatible": [
+          "Neurofax EEG",
+          "Neurofax aireeg",
+          "Neuropack X1",
+          "Neuropack"
+        ],
+        "description": "OneStep EEG Adhesive, 100g Adult/Paediatric/Neonatal, Disposable, 100g, 1 PK - 1 EA"
+      },
+      {
+        "name": "Elefix V EEG Paste",
+        "nk_part_number": "ZV-181E02",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Paste",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Tube Adults/Paediatrics/Neonates, Disposable, 180g, 1 PK - 2 EA"
+      },
+      {
+        "name": "Elefix V EEG Paste",
+        "nk_part_number": "ZV-181E10",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Paste",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Tube Adults/Paediatrics/Neonates, Disposable, 180g, 1 PK - 10 EA"
+      },
+      {
+        "name": "Elefix V EEG Paste",
+        "nk_part_number": "ZV-401E03",
+        "lapidot_part_number": "",
+        "image": "",
+        "subcategory": "Paste",
+        "compatible": [
+          "MEB-2300",
+          "MEB-9600",
+          "EEG-1200",
+          "WEE-1200"
+        ],
+        "description": "Tub Adults/Paediatrics/Neonates, Disposable, 400g, 1 PK - 3 EA"
+      }
+    ]
   }
 }
