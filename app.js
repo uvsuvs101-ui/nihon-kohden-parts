@@ -64,7 +64,18 @@ function buildCategory(categoryName, parts) {
   h3.textContent = categoryName;
   catDiv.appendChild(h3);
 
+  let lastSub = null;
+
   parts.forEach(part => {
+    // Subcategory sub-header (consumables only)
+    if (part.subcategory && part.subcategory !== lastSub) {
+      const h4 = document.createElement("h4");
+      h4.className = "subcategory";
+      h4.textContent = part.subcategory;
+      catDiv.appendChild(h4);
+      lastSub = part.subcategory;
+    }
+
     const partDiv = document.createElement("div");
     partDiv.className = "part";
 
@@ -78,18 +89,37 @@ function buildCategory(categoryName, parts) {
 
     const text = document.createElement("div");
 
+    const nameEl = document.createElement("strong");
+    nameEl.textContent = part.name;
+    text.appendChild(nameEl);
+
+    if (part.description) {
+      const desc = document.createElement("div");
+      desc.className = "part-desc";
+      desc.textContent = part.description;
+      text.appendChild(desc);
+    }
+
     // Part numbers: consumables use nk_part_number + lapidot_part_number,
     // devices use the original part_number. Support both.
-    let numbersHtml = "";
+    const nums = document.createElement("div");
     if (part.nk_part_number || part.lapidot_part_number) {
-      if (part.nk_part_number)
-        numbersHtml += `NK Part #: ${part.nk_part_number}<br>`;
-      if (part.lapidot_part_number)
-        numbersHtml += `Lapidot Part #: ${part.lapidot_part_number}<br>`;
+      if (part.nk_part_number) {
+        const a = document.createElement("div");
+        a.textContent = "NK Part #: " + part.nk_part_number;
+        nums.appendChild(a);
+      }
+      if (part.lapidot_part_number) {
+        const b = document.createElement("div");
+        b.textContent = "Lapidot Part #: " + part.lapidot_part_number;
+        nums.appendChild(b);
+      }
     } else if (part.part_number) {
-      numbersHtml += `Part #: ${part.part_number}<br>`;
+      const a = document.createElement("div");
+      a.textContent = "Part #: " + part.part_number;
+      nums.appendChild(a);
     }
-    text.innerHTML = `<strong>${part.name}</strong><br>${numbersHtml}`;
+    text.appendChild(nums);
 
     // Compatible devices (clickable when the device exists in the catalog)
     if (Array.isArray(part.compatible) && part.compatible.length) {
