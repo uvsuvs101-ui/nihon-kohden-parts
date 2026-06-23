@@ -207,3 +207,20 @@ body {
   border-radius: 6px;
   box-shadow: 0 0 30px black;
 }
+
+/* Consumables: compatible device list */
+.compatible {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.compat-device {
+  color: #1f6feb;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.compat-device:hover {
+  color: #0a4bbd;
+}
