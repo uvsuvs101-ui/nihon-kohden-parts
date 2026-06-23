@@ -1,0 +1,19 @@
+{
+  "categories": {
+    "ECG Electrodes": [
+      {
+        "name": "⚠ EXAMPLE — replace or delete this entry",
+        "nk_part_number": "EXAMPLE-NK-000",
+        "lapidot_part_number": "EXAMPLE-LAP-000",
+        "compatible": ["BSM-1700 (Life Scope PT)", "CSM-1500 (G5 Monitor)", "ECG-2150"],
+        "image": ""
+      }
+    ],
+    "SpO2 Sensors": [],
+    "NIBP Cuffs": [],
+    "CO2 Sensors": [],
+    "Temperature Probes": [],
+    "Recording Paper": [],
+    "Gels & Adhesives": []
+  }
+}
