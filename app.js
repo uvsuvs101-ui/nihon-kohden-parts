@@ -7,6 +7,24 @@ const mainContent = document.getElementById("mainContent");
 const toggleBtn = document.getElementById("devicesToggle");
 const consumablesToggleBtn = document.getElementById("consumablesToggle");
 
+/* Subtle accent color per category (helps the eye separate sections) */
+const CATEGORY_COLORS = {
+  "ECG Accessories": "#2563eb",
+  "SpO2 Accessories": "#0891b2",
+  "NIBP Accessories": "#7c3aed",
+  "IBP Accessories": "#dc2626",
+  "Temperature Measurement Accessories": "#ea580c",
+  "CO2 Accessories": "#0d9488",
+  "Resuscitation Accessories": "#be123c",
+  "EEG Accessories": "#4f46e5",
+  "Neurology EEG Accessories": "#059669",
+  "Neurology EMG Accessories": "#16a34a",
+  "Neurology NCS Accessories": "#65a30d",
+  "Neurology EP Accessories": "#0284c7",
+  "Neurology Ground Electrode Accessories": "#9333ea",
+  "Neurology Skin Preparation Accessories": "#db2777"
+};
+
 /* ---------- LOAD DATA ---------- */
 
 fetch("data/devices.json")
@@ -59,6 +77,8 @@ function enableZoom(img) {
 function buildCategory(categoryName, parts) {
   const catDiv = document.createElement("div");
   catDiv.className = "category";
+  const accent = CATEGORY_COLORS[categoryName] || "#475569";
+  catDiv.style.setProperty("--cat-color", accent);
 
   const h3 = document.createElement("h3");
   h3.textContent = categoryName;
@@ -100,24 +120,27 @@ function buildCategory(categoryName, parts) {
       text.appendChild(desc);
     }
 
-    // Part numbers: consumables use nk_part_number + lapidot_part_number,
-    // devices use the original part_number. Support both.
+    // Part numbers as tagged badge rows (NK vs Lapidot stand out)
     const nums = document.createElement("div");
-    if (part.nk_part_number || part.lapidot_part_number) {
-      if (part.nk_part_number) {
-        const a = document.createElement("div");
-        a.textContent = "NK Part #: " + part.nk_part_number;
-        nums.appendChild(a);
-      }
-      if (part.lapidot_part_number) {
-        const b = document.createElement("div");
-        b.textContent = "Lapidot Part #: " + part.lapidot_part_number;
-        nums.appendChild(b);
-      }
+    nums.className = "pn-block";
+    function pnRow(tagText, tagClass, value) {
+      const row = document.createElement("div");
+      row.className = "pn-row";
+      const tag = document.createElement("span");
+      tag.className = "pn-tag " + tagClass;
+      tag.textContent = tagText;
+      const val = document.createElement("span");
+      val.className = "pn-val";
+      val.textContent = value;
+      row.appendChild(tag);
+      row.appendChild(val);
+      return row;
+    }
+    if (part.nk_part_number || part.lapidot_part_number !== undefined) {
+      if (part.nk_part_number) nums.appendChild(pnRow("NK", "nk", part.nk_part_number));
+      nums.appendChild(pnRow("LAP", "lap", part.lapidot_part_number ? part.lapidot_part_number : "—"));
     } else if (part.part_number) {
-      const a = document.createElement("div");
-      a.textContent = "Part #: " + part.part_number;
-      nums.appendChild(a);
+      nums.appendChild(pnRow("PART", "nk", part.part_number));
     }
     text.appendChild(nums);
 

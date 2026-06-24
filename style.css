@@ -239,3 +239,91 @@ body {
   color: #6b7280;
   margin: 2px 0;
 }
+
+/* ===== Consumables: subtle color coding (overrides above) ===== */
+
+/* Category header takes the section's accent color */
+.category h3 {
+  color: var(--cat-color, #475569);
+  border-bottom: 2px solid var(--cat-color, #e5e7eb);
+  border-left: 5px solid var(--cat-color, #475569);
+  padding: 4px 0 5px 10px;
+  margin-top: 8px;
+}
+
+/* Subcategory tinted to the same accent, lighter */
+.subcategory {
+  margin: 20px 0 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--cat-color, #374151);
+  border-bottom: 1px dashed #d1d5db;
+  padding-bottom: 3px;
+  opacity: 0.9;
+}
+
+/* Each part becomes a clean card with an accent left edge */
+.part {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 10px 0;
+  padding: 12px 14px;
+  background: #ffffff;
+  border: 1px solid #e8eaed;
+  border-left: 4px solid var(--cat-color, #cbd5e1);
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.part:hover {
+  box-shadow: 0 2px 8px rgba(16, 24, 40, 0.10);
+}
+
+.part img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background: #fafafa;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+/* Part-number badges: NK vs Lapidot stand apart */
+.pn-block { margin: 5px 0 2px; }
+
+.pn-row {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 2px 0;
+  font-size: 13px;
+}
+
+.pn-tag {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 1px 7px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.pn-tag.nk {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.pn-tag.lap {
+  background: #fff7ed;
+  color: #c2410c;
+  border: 1px solid #fed7aa;
+}
+
+.pn-val {
+  font-family: "Consolas", "Menlo", monospace;
+  color: #111827;
+}
