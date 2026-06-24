@@ -97,8 +97,8 @@
         "description": "snap type Reusable, 0,8m, 1 PK - 1 EA"
       },
       {
-        "name": "12-Lead ECG Patient Cable K921",
-        "nk_part_number": "(JC-900P ECG(10))",
+        "name": "12-Lead ECG Patient Cable",
+        "nk_part_number": "K921 (JC-900P ECG(10))",
         "lapidot_part_number": "",
         "image": "images/consumables/12-Lead-ECG-Patient-Cable-K921.jpeg",
         "subcategory": "ECG for PMS and TEC",
@@ -115,8 +115,8 @@
         "description": "10 wires, includes patient electrode lead & connection cable, for AY-900/910/920, connection of pre-wired disposable electrode with DIN type connector Reusable, 3,0m, 1 PK - 1 EA"
       },
       {
-        "name": "3/6-Lead ECG Connection Cable K922",
-        "nk_part_number": "(ECG(3/6)JC-906P)",
+        "name": "3/6-Lead ECG Connection Cable",
+        "nk_part_number": "K922 (ECG(3/6)JC-906P)",
         "lapidot_part_number": "",
         "image": "images/consumables/3-6-Lead-ECG-Connection-Cable.jpeg",
         "subcategory": "ECG for PMS and TEC",
@@ -547,8 +547,8 @@
         "description": "14.4V, 3400 mAh, nickel-metal hydride (NiMH) Reusable, 1 PK - 1 EA"
       },
       {
-        "name": "Thermal Paper A052",
-        "nk_part_number": "(FQW210-10-295)",
+        "name": "Thermal Paper",
+        "nk_part_number": "A052 (FQW210-10-295)",
         "lapidot_part_number": "",
         "image": "images/consumables/Thermal-Paper-A052.jpeg",
         "subcategory": "ECG Paper",
@@ -561,8 +561,8 @@
         "description": "Z-fold, 339 pages, with queue mark/ perforation size of one page: 295 mm 210mm x 100m, 1 PK - 5 SET"
       },
       {
-        "name": "Thermal Paper A053",
-        "nk_part_number": "(FQW210-30-295,)",
+        "name": "Thermal Paper",
+        "nk_part_number": "A053 (FQW210-30-295,)",
         "lapidot_part_number": "",
         "image": "images/consumables/Thermal-Paper-A053.jpeg",
         "subcategory": "ECG Paper",
@@ -575,8 +575,8 @@
         "description": "Z-fold, 1017 pages, without grid,with queue mark/perforation size of one page: 210mm x 300m, 1 PK - 1 EA"
       },
       {
-        "name": "Recording Paper A057",
-        "nk_part_number": "(FQW210-3-295)",
+        "name": "Recording Paper",
+        "nk_part_number": "A057 (FQW210-3-295)",
         "lapidot_part_number": "",
         "image": "images/consumables/Recording-Paper-A057.jpeg",
         "subcategory": "ECG Paper",
@@ -2893,8 +2893,8 @@
         "description": "Earlobe electrode ear clip Adults/Paediatrics, Reusable, 1 PK - 10 EA"
       },
       {
-        "name": "EEG Earlobe Electrode H543B",
-        "nk_part_number": "(NE-313AG EEG)",
+        "name": "EEG Earlobe Electrode",
+        "nk_part_number": "H543B (NE-313AG EEG)",
         "lapidot_part_number": "",
         "image": "images/consumables/EEG-Earlobe-Electrode-H543B.jpeg",
         "subcategory": "Earlobe Electrodes",
@@ -2905,8 +2905,8 @@
         "description": "Sintered Ag/AgCl electrode Adults/Paediatrics, Reusable, Touchproof: 1.5mm; Cable length: 0.9m, 1 PK -"
       },
       {
-        "name": "EEG Bridge Electrode H542B",
-        "nk_part_number": "(BE-0005W G)",
+        "name": "EEG Bridge Electrode",
+        "nk_part_number": "H542B (BE-0005W G)",
         "lapidot_part_number": "",
         "image": "images/consumables/EEG-Bridge-Electrode-H542B.jpeg",
         "subcategory": "Bridge Electrodes",
@@ -2917,8 +2917,8 @@
         "description": "Sintered Ag/AgCl flexible electrode, beige in colour with a rectangular shaped Adults/Paediatrics, Reusable, 1 PK - 23 EA"
       },
       {
-        "name": "EEG Adhesive Electrode H544A",
-        "nk_part_number": "(AEEG NE-05IS3)",
+        "name": "EEG Adhesive Electrode",
+        "nk_part_number": "H544A (AEEG NE-05IS3)",
         "lapidot_part_number": "",
         "image": "images/consumables/EEG-Adhesive-Electrode-H544A.jpeg",
         "subcategory": "aEEG Electrodes",
@@ -3138,8 +3138,8 @@
         "description": "EEG headcap connector (DIN to Touchproof connectors) for EEG systems using EEG Headcap (E/HEADCAP/xx), newborn and paediatric caps Paediatric/Neonatal, Reusable, 1 PK - 1 EA"
       },
       {
-        "name": "ECG Connection Cable K512A",
-        "nk_part_number": "(BC-112B DIN)",
+        "name": "ECG Connection Cable",
+        "nk_part_number": "K512A (BC-112B DIN)",
         "lapidot_part_number": "",
         "image": "images/consumables/ECG-Connection-Cable-K512A.jpeg",
         "subcategory": "ECG Cables",
@@ -3816,8 +3816,8 @@
         "description": "For headphones Adults, Reusable, Ear pad: 117mm x 92mm, 1 PK - 2 EA"
       },
       {
-        "name": "Headphone Ear Cushions Y849D",
-        "nk_part_number": "(15VA0051A3)",
+        "name": "Headphone Ear Cushions",
+        "nk_part_number": "Y849D (15VA0051A3)",
         "lapidot_part_number": "",
         "image": "images/consumables/Headphone-Ear-Cushions-Y849D.jpeg",
         "subcategory": "Accessories",
