@@ -6,100 +6,112 @@
         {
           "name": "Battery",
           "part_number": "NKE-X161",
-          "image": "images/bsm-1700/battery.png"
+          "image": "images/bsm-1700/battery.png",
+          "lapidot_part_number": "NKE-X161"
         }
       ],
       "ECG": [
         {
           "name": "3-Lead ECG Electrode Cable",
           "part_number": "NKEK911",
-          "image": "images/bsm-1700/ecg-3-lead.png"
+          "image": "images/bsm-1700/ecg-3-lead.png",
+          "lapidot_part_number": "NKEK911"
         },
         {
           "name": "6-Lead ECG Electrode Cable (CLIP)",
           "part_number": "NKEK912",
-          "image": "images/bsm-1700/ecg-6-lead-clip.png"
+          "image": "images/bsm-1700/ecg-6-lead-clip.png",
+          "lapidot_part_number": "NKK912"
         },
         {
           "name": "6-Lead ECG Electrode Cable (SNAP)",
           "part_number": "NKEK915",
-          "image": "images/bsm-1700/ecg-6-lead-snap.png"
+          "image": "images/bsm-1700/ecg-6-lead-snap.png",
+          "lapidot_part_number": "NKEK915"
         },
         {
           "name": "12-Lead ECG Patient Cable",
           "part_number": "NKEK901",
-          "image": "images/bsm-1700/ecg-12-lead-kit.png"
+          "image": "images/bsm-1700/ecg-12-lead-kit.png",
+          "lapidot_part_number": "NKEK901"
         }
       ],
       "SpO2": [
         {
           "name": "SpO2 Connection Cable",
           "part_number": "NKEK931",
-          "image": "images/bsm-1700/spo2-connection-cable.png"
+          "image": "images/bsm-1700/spo2-connection-cable.png",
+          "lapidot_part_number": "NKEK931"
         },
         {
           "name": "SpO2 BluPRO Finger Clip Probe (0.6m)",
           "part_number": "NKEP225H",
-          "image": "images/bsm-1700/spo2-finger-clip-0-6.png"
+          "image": "images/bsm-1700/spo2-finger-clip-0-6.png",
+          "lapidot_part_number": "NKE-P225H"
         },
         {
           "name": "SpO2 BluPRO Finger Clip Probe (1.6m)",
           "part_number": "NKEP225F",
-          "image": "images/bsm-1700/spo2-finger-clip-1-6.png"
-        },
-        {
-          "name": "SpO2 Multiconnector",
-          "part_number": "NKEY094A",
-          "image": "images/bsm-1700/spo2-multiconnector.png"
+          "image": "images/bsm-1700/spo2-finger-clip-1-6.png",
+          "lapidot_part_number": "NKEP225F"
         }
       ],
       "NIBP": [
         {
           "name": "NIBP Air Hose (1.5m)",
           "part_number": "NKES901",
-          "image": "images/bsm-1700/nibp-air-hose-1-5.png"
+          "image": "images/bsm-1700/nibp-air-hose-1-5.png",
+          "lapidot_part_number": "NKES901"
         },
         {
           "name": "NIBP Air Hose (3.5m)",
           "part_number": "NKES902",
-          "image": "images/bsm-1700/nibp-air-hose-3-5.png"
+          "image": "images/bsm-1700/nibp-air-hose-3-5.png",
+          "lapidot_part_number": "NKES902"
         },
         {
           "name": "NIBP Cuff (Adult)",
           "part_number": "NKES951D",
-          "image": "images/bsm-1700/nibp-adult.png"
+          "image": "images/bsm-1700/nibp-adult.png",
+          "lapidot_part_number": "NKE-S951D"
         },
         {
           "name": "NIBP Cuff (Large Adult)",
           "part_number": "NKES951E",
-          "image": "images/bsm-1700/nibp-adult-large.png"
+          "image": "images/bsm-1700/nibp-adult-large.png",
+          "lapidot_part_number": "NKE-S951E"
         },
         {
           "name": "NIBP Cuff (Small Adult)",
           "part_number": "NKES951C",
-          "image": "images/bsm-1700/nibp-adult-small.png"
+          "image": "images/bsm-1700/nibp-adult-small.png",
+          "lapidot_part_number": "NKE-S951C"
         },
         {
           "name": "NIBP Cuff (Child)",
           "part_number": "NKES951B",
-          "image": "images/bsm-1700/nibp-child.png"
+          "image": "images/bsm-1700/nibp-child.png",
+          "lapidot_part_number": "NKE-S951B"
         },
         {
           "name": "NIBP Cuff (Infant)",
           "part_number": "NKES951A",
-          "image": "images/bsm-1700/nibp-infant.png"
+          "image": "images/bsm-1700/nibp-infant.png",
+          "lapidot_part_number": "NKE-S951A"
         },
         {
           "name": "NIBP Cuff (Thigh)",
           "part_number": "NKES951F",
-          "image": "images/bsm-1700/nibp-thigh.png"
+          "image": "images/bsm-1700/nibp-thigh.png",
+          "lapidot_part_number": "NKE-S951F"
         }
       ],
       "CO2": [
         {
           "name": "cap-ONE CO2 Sensor Kit",
           "part_number": "NKEP910A",
-          "image": "images/bsm-1700/cap-one-co2-sensor-kit.png"
+          "image": "images/bsm-1700/cap-one-co2-sensor-kit.png",
+          "lapidot_part_number": "NKE-P910A"
         }
       ]
     }
@@ -111,100 +123,112 @@
         {
           "name": "Battery",
           "part_number": "NKE-SB-950P-DB",
-          "image": "images/g5/battery.png"
+          "image": "images/g5/battery.png",
+          "lapidot_part_number": "NKE-SB-950P-DB"
         }
       ],
       "ECG": [
         {
           "name": "3-Lead ECG Electrode Cable",
           "part_number": "NKEK911",
-          "image": "images/g5/ecg-3-lead.png"
+          "image": "images/g5/ecg-3-lead.png",
+          "lapidot_part_number": "NKEK911"
         },
         {
           "name": "6-Lead ECG Electrode Cable (CLIP)",
           "part_number": "NKEK912",
-          "image": "images/g5/ecg-6-lead-clip.png"
+          "image": "images/g5/ecg-6-lead-clip.png",
+          "lapidot_part_number": "NKK912"
         },
         {
           "name": "6-Lead ECG Electrode Cable (SNAP)",
           "part_number": "NKEK915",
-          "image": "images/g5/ecg-6-lead-snap.png"
+          "image": "images/g5/ecg-6-lead-snap.png",
+          "lapidot_part_number": "NKEK915"
         },
         {
           "name": "12-Lead ECG Patient Cable",
           "part_number": "NKEK901",
-          "image": "images/g5/ecg-12-lead-kit.png"
+          "image": "images/g5/ecg-12-lead-kit.png",
+          "lapidot_part_number": "NKEK901"
         }
       ],
       "SpO2": [
         {
           "name": "SpO2 Connection Cable",
           "part_number": "NKEK931",
-          "image": "images/g5/spo2-connection-cable.png"
+          "image": "images/g5/spo2-connection-cable.png",
+          "lapidot_part_number": "NKEK931"
         },
         {
           "name": "SpO2 BluPRO Finger Clip Probe (0.6m)",
           "part_number": "NKEP225H",
-          "image": "images/g5/spo2-finger-clip-0-6.png"
+          "image": "images/g5/spo2-finger-clip-0-6.png",
+          "lapidot_part_number": "NKE-P225H"
         },
         {
           "name": "SpO2 BluPRO Finger Clip Probe (1.6m)",
           "part_number": "NKEP225F",
-          "image": "images/g5/spo2-finger-clip-1-6.png"
-        },
-        {
-          "name": "SpO2 Multiconnector",
-          "part_number": "NKEY094A",
-          "image": "images/g5/spo2-multiconnector.png"
+          "image": "images/g5/spo2-finger-clip-1-6.png",
+          "lapidot_part_number": "NKEP225F"
         }
       ],
       "NIBP": [
         {
           "name": "NIBP Air Hose (1.5m)",
           "part_number": "NKES901",
-          "image": "images/g5/nibp-air-hose-1-5.png"
+          "image": "images/g5/nibp-air-hose-1-5.png",
+          "lapidot_part_number": "NKES901"
         },
         {
           "name": "NIBP Air Hose (3.5m)",
           "part_number": "NKES902",
-          "image": "images/g5/nibp-air-hose-3-5.png"
+          "image": "images/g5/nibp-air-hose-3-5.png",
+          "lapidot_part_number": "NKES902"
         },
         {
           "name": "NIBP Cuff (Adult)",
           "part_number": "NKES951D",
-          "image": "images/g5/nibp-adult.png"
+          "image": "images/g5/nibp-adult.png",
+          "lapidot_part_number": "NKE-S951D"
         },
         {
           "name": "NIBP Cuff (Large Adult)",
           "part_number": "NKES951E",
-          "image": "images/g5/nibp-adult-large.png"
+          "image": "images/g5/nibp-adult-large.png",
+          "lapidot_part_number": "NKE-S951E"
         },
         {
           "name": "NIBP Cuff (Small Adult)",
           "part_number": "NKES951C",
-          "image": "images/g5/nibp-adult-small.png"
+          "image": "images/g5/nibp-adult-small.png",
+          "lapidot_part_number": "NKE-S951C"
         },
         {
           "name": "NIBP Cuff (Child)",
           "part_number": "NKES951B",
-          "image": "images/g5/nibp-child.png"
+          "image": "images/g5/nibp-child.png",
+          "lapidot_part_number": "NKE-S951B"
         },
         {
           "name": "NIBP Cuff (Infant)",
           "part_number": "NKES951A",
-          "image": "images/g5/nibp-infant.png"
+          "image": "images/g5/nibp-infant.png",
+          "lapidot_part_number": "NKE-S951A"
         },
         {
           "name": "NIBP Cuff (Thigh)",
           "part_number": "NKES951F",
-          "image": "images/g5/nibp-thigh.png"
+          "image": "images/g5/nibp-thigh.png",
+          "lapidot_part_number": "NKE-S951F"
         }
       ],
       "CO2": [
         {
           "name": "cap-ONE CO2 Sensor Kit",
           "part_number": "NKEP910A",
-          "image": "images/g5/cap-one-co2-sensor-kit.png"
+          "image": "images/g5/cap-one-co2-sensor-kit.png",
+          "lapidot_part_number": "NKE-P910A"
         }
       ]
     }
@@ -216,117 +240,132 @@
         {
           "name": "Battery",
           "part_number": "NKEX077",
-          "image": "images/tec-8300/battery.png"
+          "image": "images/tec-8300/battery.png",
+          "lapidot_part_number": "NKEX077"
         },
         {
           "name": "AC/DC Adapter",
           "part_number": "NKESC-831V",
-          "image": "images/tec-8300/ac-dc-adapter.png"
+          "image": "images/tec-8300/ac-dc-adapter.png",
+          "lapidot_part_number": "NKESC-831V"
         }
       ],
       "ECG": [
         {
           "name": "3-Lead ECG Electrode Cable",
           "part_number": "NKEK911",
-          "image": "images/tec-8300/ecg-3-lead.png"
+          "image": "images/tec-8300/ecg-3-lead.png",
+          "lapidot_part_number": "NKEK911"
         },
         {
           "name": "6-Lead ECG Electrode Cable (CLIP)",
           "part_number": "NKEK912",
-          "image": "images/tec-8300/ecg-6-lead-clip.png"
+          "image": "images/tec-8300/ecg-6-lead-clip.png",
+          "lapidot_part_number": "NKK912"
         },
         {
           "name": "6-Lead ECG Electrode Cable (SNAP)",
           "part_number": "NKEK915",
-          "image": "images/tec-8300/ecg-6-lead-snap.png"
+          "image": "images/tec-8300/ecg-6-lead-snap.png",
+          "lapidot_part_number": "NKEK915"
         }
       ],
       "SpO2": [
         {
           "name": "SpO2 Connection Cable",
           "part_number": "NKEK931",
-          "image": "images/tec-8300/spo2-connection-cable.png"
+          "image": "images/tec-8300/spo2-connection-cable.png",
+          "lapidot_part_number": "NKEK931"
         },
         {
           "name": "SpO2 BluPRO Finger Clip Probe (0.6m)",
           "part_number": "NKEP225H",
-          "image": "images/tec-8300/spo2-finger-clip-0-6.png"
+          "image": "images/tec-8300/spo2-finger-clip-0-6.png",
+          "lapidot_part_number": "NKE-P225H"
         },
         {
           "name": "SpO2 BluPRO Finger Clip Probe (1.6m)",
           "part_number": "NKEP225F",
-          "image": "images/tec-8300/spo2-finger-clip-1-6.png"
-        },
-        {
-          "name": "SpO2 Multiconnector",
-          "part_number": "NKEY094A",
-          "image": "images/tec-8300/spo2-multiconnector.png"
+          "image": "images/tec-8300/spo2-finger-clip-1-6.png",
+          "lapidot_part_number": "NKEP225F"
         }
       ],
       "NIBP": [
         {
           "name": "NIBP Air Hose (1.5m)",
           "part_number": "NKES901",
-          "image": "images/tec-8300/nibp-air-hose-1-5.png"
+          "image": "images/tec-8300/nibp-air-hose-1-5.png",
+          "lapidot_part_number": "NKES901"
         },
         {
           "name": "NIBP Air Hose (3.5m)",
           "part_number": "NKES902",
-          "image": "images/tec-8300/nibp-air-hose-3-5.png"
+          "image": "images/tec-8300/nibp-air-hose-3-5.png",
+          "lapidot_part_number": "NKES902"
         },
         {
           "name": "NIBP Cuff (Adult)",
           "part_number": "NKES951D",
-          "image": "images/tec-8300/nibp-adult.png"
+          "image": "images/tec-8300/nibp-adult.png",
+          "lapidot_part_number": "NKE-S951D"
         },
         {
           "name": "NIBP Cuff (Large Adult)",
           "part_number": "NKES951E",
-          "image": "images/tec-8300/nibp-adult-large.png"
+          "image": "images/tec-8300/nibp-adult-large.png",
+          "lapidot_part_number": "NKE-S951E"
         },
         {
           "name": "NIBP Cuff (Small Adult)",
           "part_number": "NKES951C",
-          "image": "images/tec-8300/nibp-adult-small.png"
+          "image": "images/tec-8300/nibp-adult-small.png",
+          "lapidot_part_number": "NKE-S951C"
         },
         {
           "name": "NIBP Cuff (Child)",
           "part_number": "NKES951B",
-          "image": "images/tec-8300/nibp-child.png"
+          "image": "images/tec-8300/nibp-child.png",
+          "lapidot_part_number": "NKE-S951B"
         },
         {
           "name": "NIBP Cuff (Infant)",
           "part_number": "NKES951A",
-          "image": "images/tec-8300/nibp-infant.png"
+          "image": "images/tec-8300/nibp-infant.png",
+          "lapidot_part_number": "NKE-S951A"
         },
         {
           "name": "NIBP Cuff (Thigh)",
           "part_number": "NKES951F",
-          "image": "images/tec-8300/nibp-thigh.png"
+          "image": "images/tec-8300/nibp-thigh.png",
+          "lapidot_part_number": "NKE-S951F"
         }
       ],
       "CO2": [
         {
           "name": "cap-ONE CO2 Sensor Kit",
           "part_number": "NKEP910A",
-          "image": "images/tec-8300/cap-one-co2-sensor-kit.png"
+          "image": "images/tec-8300/cap-one-co2-sensor-kit.png",
+          "lapidot_part_number": "NKE-P910A"
         }
       ],
       "Defibrillation": [
         {
           "name": "Adapter Cable",
           "part_number": "NKEK342B",
-          "image": "images/tec-8300/adapter-cable.png"
+          "image": "images/tec-8300/adapter-cable.png",
+          "lapidot_part_number": "NKEK342B"
         },
         {
           "name": "Defibrillator Pads",
           "part_number": "NKE-H331",
-          "image": "images/tec-8300/defibrillator-pads.png"
+          "image": "images/tec-8300/defibrillator-pads.png",
+          "lapidot_part_number": "NKE-H331"
         },
         {
           "name": "AED Cable Testing Unit",
           "part_number": "NKE-Y206A",
-          "image": "images/tec-8300/aed-cable-testing-unit.png"
+          "image": "images/tec-8300/aed-cable-testing-unit.png",
+          "lapidot_part_number": "NKE-Y206A"
         }
       ]
     }
@@ -338,105 +377,118 @@
         {
           "name": "Battery",
           "part_number": "NKEX065",
-          "image": "images/tec-5600/battery.png"
+          "image": "images/tec-5600/battery.png",
+          "lapidot_part_number": "NKEX065"
         }
       ],
       "ECG": [
         {
           "name": "3-Lead ECG Electrode Cable",
           "part_number": "NKEK911",
-          "image": "images/tec-5600/ecg-3-lead.png"
+          "image": "images/tec-5600/ecg-3-lead.png",
+          "lapidot_part_number": "NKEK911"
         },
         {
           "name": "6-Lead ECG Electrode Cable (CLIP)",
           "part_number": "NKEK912",
-          "image": "images/tec-5600/ecg-6-lead-clip.png"
+          "image": "images/tec-5600/ecg-6-lead-clip.png",
+          "lapidot_part_number": "NKK912"
         },
         {
           "name": "6-Lead ECG Electrode Cable (SNAP)",
           "part_number": "NKEK915",
-          "image": "images/tec-5600/ecg-6-lead-snap.png"
+          "image": "images/tec-5600/ecg-6-lead-snap.png",
+          "lapidot_part_number": "NKEK915"
         }
       ],
       "SpO2": [
         {
           "name": "SpO2 Connection Cable",
           "part_number": "NKEK931",
-          "image": "images/tec-5600/spo2-connection-cable.png"
+          "image": "images/tec-5600/spo2-connection-cable.png",
+          "lapidot_part_number": "NKEK931"
         },
         {
           "name": "SpO2 BluPRO Finger Clip Probe (0.6m)",
           "part_number": "NKEP225H",
-          "image": "images/tec-5600/spo2-finger-clip-0-6.png"
+          "image": "images/tec-5600/spo2-finger-clip-0-6.png",
+          "lapidot_part_number": "NKE-P225H"
         },
         {
           "name": "SpO2 BluPRO Finger Clip Probe (1.6m)",
           "part_number": "NKEP225F",
-          "image": "images/tec-5600/spo2-finger-clip-1-6.png"
-        },
-        {
-          "name": "SpO2 Multiconnector",
-          "part_number": "NKEY094A",
-          "image": "images/tec-5600/spo2-multiconnector.png"
+          "image": "images/tec-5600/spo2-finger-clip-1-6.png",
+          "lapidot_part_number": "NKEP225F"
         }
       ],
       "NIBP": [
         {
           "name": "NIBP Air Hose (1.5m)",
           "part_number": "NKES901",
-          "image": "images/tec-5600/nibp-air-hose-1-5.png"
+          "image": "images/tec-5600/nibp-air-hose-1-5.png",
+          "lapidot_part_number": "NKES901"
         },
         {
           "name": "NIBP Air Hose (3.5m)",
           "part_number": "NKES902",
-          "image": "images/tec-5600/nibp-air-hose-3-5.png"
+          "image": "images/tec-5600/nibp-air-hose-3-5.png",
+          "lapidot_part_number": "NKES902"
         },
         {
           "name": "NIBP Cuff (Adult)",
           "part_number": "NKES951D",
-          "image": "images/tec-5600/nibp-adult.png"
+          "image": "images/tec-5600/nibp-adult.png",
+          "lapidot_part_number": "NKE-S951D"
         },
         {
           "name": "NIBP Cuff (Large Adult)",
           "part_number": "NKES951E",
-          "image": "images/tec-5600/nibp-adult-large.png"
+          "image": "images/tec-5600/nibp-adult-large.png",
+          "lapidot_part_number": "NKE-S951E"
         },
         {
           "name": "NIBP Cuff (Small Adult)",
           "part_number": "NKES951C",
-          "image": "images/tec-5600/nibp-adult-small.png"
+          "image": "images/tec-5600/nibp-adult-small.png",
+          "lapidot_part_number": "NKE-S951C"
         },
         {
           "name": "NIBP Cuff (Child)",
           "part_number": "NKES951B",
-          "image": "images/tec-5600/nibp-child.png"
+          "image": "images/tec-5600/nibp-child.png",
+          "lapidot_part_number": "NKE-S951B"
         },
         {
           "name": "NIBP Cuff (Infant)",
           "part_number": "NKES951A",
-          "image": "images/tec-5600/nibp-infant.png"
+          "image": "images/tec-5600/nibp-infant.png",
+          "lapidot_part_number": "NKE-S951A"
         },
         {
           "name": "NIBP Cuff (Thigh)",
           "part_number": "NKES951F",
-          "image": "images/tec-5600/nibp-thigh.png"
+          "image": "images/tec-5600/nibp-thigh.png",
+          "lapidot_part_number": "NKE-S951F"
         }
       ],
       "Defibrillation": [
         {
           "name": "Adapter Cable",
           "part_number": "NKEK342B",
-          "image": "images/tec-5600/adapter-cable.png"
+          "image": "images/tec-5600/adapter-cable.png",
+          "lapidot_part_number": "NKEK342B"
         },
         {
           "name": "Defibrillator Pads",
           "part_number": "NKE-H331",
-          "image": "images/tec-5600/defibrillator-pads.png"
+          "image": "images/tec-5600/defibrillator-pads.png",
+          "lapidot_part_number": "NKE-H331"
         },
         {
           "name": "AED Cable Testing Unit",
           "part_number": "NKE-Y206A",
-          "image": "images/tec-5600/aed-cable-testing-unit.png"
+          "image": "images/tec-5600/aed-cable-testing-unit.png",
+          "lapidot_part_number": "NKE-Y206A"
         }
       ]
     }
@@ -448,14 +500,16 @@
         {
           "name": "Battery",
           "part_number": "NKE-SB-214VK",
-          "image": "images/aed-2100/battery.png"
+          "image": "images/aed-2100/battery.png",
+          "lapidot_part_number": "NKE-SB-214VK"
         }
       ],
       "Defibrillation": [
         {
           "name": "Disposable Defibrillation Pads",
           "part_number": "NKE-P-740K",
-          "image": "images/aed-2100/disp-pads.png"
+          "image": "images/aed-2100/disp-pads.png",
+          "lapidot_part_number": "NKE-P-740K"
         }
       ]
     }
@@ -467,21 +521,24 @@
         {
           "name": "Battery",
           "part_number": "NKE-SB-310",
-          "image": "images/aed-3100/battery.png"
+          "image": "images/aed-3100/battery.png",
+          "lapidot_part_number": "NKE-SB-310"
         }
       ],
       "Defibrillation": [
         {
           "name": "Disposable Defibrillation Pads",
           "part_number": "NKE-P-740K",
-          "image": "images/aed-3100/disp-pads.png"
+          "image": "images/aed-3100/disp-pads.png",
+          "lapidot_part_number": "NKE-P-740K"
         }
       ],
       "Accessories": [
         {
           "name": "Carrying Bag",
           "part_number": "NKE-YC-310V",
-          "image": "images/aed-3100/bag.png"
+          "image": "images/aed-3100/bag.png",
+          "lapidot_part_number": "NKE-YC-310V"
         }
       ]
     }
@@ -494,13 +551,15 @@
           "name": "12-Lead ECG Patient Cable (IEC 4mm plug)",
           "part_number": "NKEK081",
           "description": "10 wires, IEC 4mm plug, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/nkek081.png"
+          "image": "images/ecg-similar/nkek081.png",
+          "lapidot_part_number": "NKEK081"
         },
         {
           "name": "12-Lead ECG Patient Cable (Snap type)",
           "part_number": "NKEK082",
           "description": "10 wires, snap type, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/nkek082.png"
+          "image": "images/ecg-similar/nkek082.png",
+          "lapidot_part_number": "NKEK082"
         }
       ],
       "Electrodes": [
@@ -508,19 +567,22 @@
           "name": "Chest Suction Electrode (Adults)",
           "part_number": "NKEH041A",
           "description": "Grey rubber ball, 3mm, Adults, Reusable, 1 PK - 3 EA",
-          "image": "images/ecg-similar/NKEH041A.png"
+          "image": "images/ecg-similar/NKEH041A.png",
+          "lapidot_part_number": "NKEH041A"
         },
         {
           "name": "Chest Suction Electrode (Child)",
           "part_number": "NKEH042D",
           "description": "Blue bear rubber ball, 11mm, Paediatrics, Reusable, 1 PK - 1 EA",
-          "image": "images/ecg-similar/NKEH042D.png"
+          "image": "images/ecg-similar/NKEH042D.png",
+          "lapidot_part_number": "NKEH042D"
         },
         {
           "name": "Fastclip ECG Electrode",
           "part_number": "NKE-H068B",
           "description": "4mm, Adults/Paediatrics, Reusable, 1 PK - 1 SET - 4 EA",
-          "image": "images/ecg-similar/NKE-H068B.png"
+          "image": "images/ecg-similar/NKE-H068B.png",
+          "lapidot_part_number": "NKE-H068B"
         }
       ]
     }
@@ -533,13 +595,15 @@
           "name": "12-Lead ECG Patient Cable (IEC 4mm plug)",
           "part_number": "NKEK081",
           "description": "10 wires, IEC 4mm plug, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/nkek081.png"
+          "image": "images/ecg-similar/nkek081.png",
+          "lapidot_part_number": "NKEK081"
         },
         {
           "name": "12-Lead ECG Patient Cable (Snap type)",
           "part_number": "NKEK082",
           "description": "10 wires, snap type, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/nkek082.png"
+          "image": "images/ecg-similar/nkek082.png",
+          "lapidot_part_number": "NKEK082"
         }
       ],
       "Electrodes": [
@@ -547,19 +611,22 @@
           "name": "Chest Suction Electrode (Adults)",
           "part_number": "NKEH041A",
           "description": "Grey rubber ball, 3mm, Adults, Reusable, 1 PK - 3 EA",
-          "image": "images/ecg-similar/NKEH041A.png"
+          "image": "images/ecg-similar/NKEH041A.png",
+          "lapidot_part_number": "NKEH041A"
         },
         {
           "name": "Chest Suction Electrode (Child)",
           "part_number": "NKEH042D",
           "description": "Blue bear rubber ball, 11mm, Paediatrics, Reusable, 1 PK - 1 EA",
-          "image": "images/ecg-similar/NKEH042D.png"
+          "image": "images/ecg-similar/NKEH042D.png",
+          "lapidot_part_number": "NKEH042D"
         },
         {
           "name": "Fastclip ECG Electrode",
           "part_number": "NKE-H068B",
           "description": "4mm, Adults/Paediatrics, Reusable, 1 PK - 1 SET - 4 EA",
-          "image": "images/ecg-similar/NKE-H068B.png"
+          "image": "images/ecg-similar/NKE-H068B.png",
+          "lapidot_part_number": "NKE-H068B"
         }
       ]
     }
@@ -572,13 +639,15 @@
           "name": "12-Lead ECG Patient Cable (IEC 4mm plug)",
           "part_number": "NKEK081",
           "description": "10 wires, IEC 4mm plug, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/nkek081.png"
+          "image": "images/ecg-similar/nkek081.png",
+          "lapidot_part_number": "NKEK081"
         },
         {
           "name": "12-Lead ECG Patient Cable (Snap type)",
           "part_number": "NKEK082",
           "description": "10 wires, snap type, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/nkek082.png"
+          "image": "images/ecg-similar/nkek082.png",
+          "lapidot_part_number": "NKEK082"
         }
       ],
       "Electrodes": [
@@ -586,19 +655,22 @@
           "name": "Chest Suction Electrode (Adults)",
           "part_number": "NKEH041A",
           "description": "Grey rubber ball, 3mm, Adults, Reusable, 1 PK - 3 EA",
-          "image": "images/ecg-similar/NKEH041A.png"
+          "image": "images/ecg-similar/NKEH041A.png",
+          "lapidot_part_number": "NKEH041A"
         },
         {
           "name": "Chest Suction Electrode (Child)",
           "part_number": "NKEH042D",
           "description": "Blue bear rubber ball, 11mm, Paediatrics, Reusable, 1 PK - 1 EA",
-          "image": "images/ecg-similar/NKEH042D.png"
+          "image": "images/ecg-similar/NKEH042D.png",
+          "lapidot_part_number": "NKEH042D"
         },
         {
           "name": "Fastclip ECG Electrode",
           "part_number": "NKE-H068B",
           "description": "4mm, Adults/Paediatrics, Reusable, 1 PK - 1 SET - 4 EA",
-          "image": "images/ecg-similar/NKE-H068B.png"
+          "image": "images/ecg-similar/NKE-H068B.png",
+          "lapidot_part_number": "NKE-H068B"
         }
       ]
     }
@@ -611,13 +683,15 @@
           "name": "12-Lead ECG Patient Cable (IEC 4mm plug)",
           "part_number": "NKEK081",
           "description": "10 wires, IEC 4mm plug, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/nkek081.png"
+          "image": "images/ecg-similar/nkek081.png",
+          "lapidot_part_number": "NKEK081"
         },
         {
           "name": "12-Lead ECG Patient Cable (Snap type)",
           "part_number": "NKEK082",
           "description": "10 wires, snap type, Reusable, limb 3.4m/chest, 1 PK - 1 EA",
-          "image": "images/ecg-similar/nkek082.png"
+          "image": "images/ecg-similar/nkek082.png",
+          "lapidot_part_number": "NKEK082"
         }
       ],
       "Electrodes": [
@@ -625,19 +699,22 @@
           "name": "Chest Suction Electrode (Adults)",
           "part_number": "NKEH041A",
           "description": "Grey rubber ball, 3mm, Adults, Reusable, 1 PK - 3 EA",
-          "image": "images/ecg-similar/NKEH041A.png"
+          "image": "images/ecg-similar/NKEH041A.png",
+          "lapidot_part_number": "NKEH041A"
         },
         {
           "name": "Chest Suction Electrode (Child)",
           "part_number": "NKEH042D",
           "description": "Blue bear rubber ball, 11mm, Paediatrics, Reusable, 1 PK - 1 EA",
-          "image": "images/ecg-similar/NKEH042D.png"
+          "image": "images/ecg-similar/NKEH042D.png",
+          "lapidot_part_number": "NKEH042D"
         },
         {
           "name": "Fastclip ECG Electrode",
           "part_number": "NKE-H068B",
           "description": "4mm, Adults/Paediatrics, Reusable, 1 PK - 1 SET - 4 EA",
-          "image": "images/ecg-similar/NKE-H068B.png"
+          "image": "images/ecg-similar/NKE-H068B.png",
+          "lapidot_part_number": "NKE-H068B"
         }
       ]
     }
