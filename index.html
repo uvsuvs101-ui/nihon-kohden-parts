@@ -26,7 +26,7 @@
 
     <!-- Masthead with search -->
     <header class="masthead">
-      <div class="logo">
+      <div class="logo" id="logoHome" title="Home">
         <img src="images/logo.png" alt="" class="logo-img" onerror="this.style.display='none'" />
         <span class="logo-mark">NK</span>
         <span class="logo-name">Nihon Kohden Catalog</span>
@@ -39,11 +39,11 @@
       </div>
     </header>
 
-    <!-- Jump-to filter chips -->
-    <nav class="filterbar" id="filterbar"></nav>
-
-    <!-- Results -->
-    <main class="results" id="results"></main>
+    <!-- Workspace: sidebar + content -->
+    <div class="workspace">
+      <aside class="sidebar" id="sidebar"></aside>
+      <main class="results" id="results"></main>
+    </div>
   </div>
 
   <script>
