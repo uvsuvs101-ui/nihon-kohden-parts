@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="light" />
   <title>Nihon Kohden Parts Finder</title>
   <link rel="stylesheet" href="style.css" />
@@ -21,32 +22,32 @@
   </div>
 
   <!-- Main App (hidden until password correct) -->
-  <div class="app" id="appContent" style="display:none;">
-    <!-- Sidebar -->
-    <aside class="sidebar">
-      <button id="devicesToggle" class="sidebar-title">
-        ▸ Devices
-      </button>
-      <ul id="deviceList" class="device-list hidden"></ul>
+  <div class="shell" id="appContent" style="display:none;">
 
-      <button id="consumablesToggle" class="sidebar-title">
-        ▸ Consumables
-      </button>
-      <ul id="consumablesList" class="device-list hidden"></ul>
-    </aside>
-
-    <!-- Main content -->
-    <main class="content">
-      <div id="mainContent">
-        <h2>Welcome</h2>
-        <p>Select a device from the left to view its parts and consumables.</p>
+    <!-- Masthead with search -->
+    <header class="masthead">
+      <div class="logo">
+        <img src="images/logo.png" alt="" class="logo-img" onerror="this.style.display='none'" />
+        <span class="logo-mark">NK</span>
+        <span class="logo-name">Nihon Kohden Catalog</span>
+        <span class="logo-sub">Lapidot</span>
       </div>
-    </main>
+      <div class="bigsearch">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4-4"/></svg>
+        <input id="searchInput" type="text" placeholder="Search by part name, NK number, Lapidot number, or device…" autocomplete="off" />
+        <span class="kbd">esc to clear</span>
+      </div>
+    </header>
+
+    <!-- Jump-to filter chips -->
+    <nav class="filterbar" id="filterbar"></nav>
+
+    <!-- Results -->
+    <main class="results" id="results"></main>
   </div>
 
   <script>
-    // Allow pressing Enter to submit password
-    document.getElementById("passwordInput").addEventListener("keydown", function(e) {
+    document.getElementById("passwordInput").addEventListener("keydown", function (e) {
       if (e.key === "Enter") checkPassword();
     });
 
@@ -55,6 +56,7 @@
       if (input === "Lapidot2026") {
         document.getElementById("passwordScreen").style.display = "none";
         document.getElementById("appContent").style.display = "flex";
+        document.getElementById("searchInput").focus();
       } else {
         document.getElementById("passwordError").textContent = "Incorrect password. Try again.";
         document.getElementById("passwordInput").value = "";

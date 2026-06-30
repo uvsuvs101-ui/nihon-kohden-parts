@@ -1,11 +1,11 @@
 let devicesData = {};
-let consumablesData = {};
+let consumablesData = { categories: {} };
+let dataReady = { devices: false, consumables: false };
+let currentFilter = "all";
 
-const deviceListEl = document.getElementById("deviceList");
-const consumablesListEl = document.getElementById("consumablesList");
-const mainContent = document.getElementById("mainContent");
-const toggleBtn = document.getElementById("devicesToggle");
-const consumablesToggleBtn = document.getElementById("consumablesToggle");
+const filterbar = document.getElementById("filterbar");
+const results = document.getElementById("results");
+const searchInput = document.getElementById("searchInput");
 
 /* Subtle accent color per category (helps the eye separate sections) */
 const CATEGORY_COLORS = {
@@ -24,274 +24,213 @@ const CATEGORY_COLORS = {
   "Neurology Ground Electrode Accessories": "#9333ea",
   "Neurology Skin Preparation Accessories": "#db2777"
 };
+const DEVICE_COLOR = "#475569";
+
+const PLACEHOLDER =
+  '<svg class="ph" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">' +
+  '<rect x="3" y="3" width="18" height="18" rx="2"/><path d="m3 16 5-5 4 4 3-3 6 6"/><circle cx="9" cy="9" r="1.5"/></svg>';
+const COPY_ICON =
+  '<svg class="copyicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">' +
+  '<rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>';
 
 /* ---------- LOAD DATA ---------- */
-
 fetch("data/devices.json")
-  .then(res => res.json())
-  .then(data => {
-    devicesData = data;
-    renderDeviceList();
-  });
+  .then(res => res.ok ? res.json() : {})
+  .then(data => { devicesData = data || {}; dataReady.devices = true; init(); })
+  .catch(() => { devicesData = {}; dataReady.devices = true; init(); });
 
 fetch("data/consumables.json")
   .then(res => res.ok ? res.json() : { categories: {} })
-  .then(data => {
-    consumablesData = data && data.categories ? data : { categories: {} };
-    renderConsumablesList();
-  })
-  .catch(() => {
-    consumablesData = { categories: {} };
-    renderConsumablesList();
-  });
+  .then(data => { consumablesData = data && data.categories ? data : { categories: {} }; dataReady.consumables = true; init(); })
+  .catch(() => { consumablesData = { categories: {} }; dataReady.consumables = true; init(); });
 
-/* ---------- SIDEBAR TOGGLES ---------- */
+function init() {
+  if (!dataReady.devices || !dataReady.consumables) return;
+  buildFilters();
+  render();
+}
 
-toggleBtn.addEventListener("click", () => {
-  deviceListEl.classList.toggle("hidden");
-  toggleBtn.textContent = deviceListEl.classList.contains("hidden")
-    ? "▸ Devices"
-    : "▾ Devices";
-});
-
-consumablesToggleBtn.addEventListener("click", () => {
-  consumablesListEl.classList.toggle("hidden");
-  consumablesToggleBtn.textContent = consumablesListEl.classList.contains("hidden")
-    ? "▸ Consumables"
-    : "▾ Consumables";
-});
-
-/* ---------- IMAGE ENLARGE (BULLETPROOF) ---------- */
+/* ---------- HELPERS ---------- */
+function esc(s) {
+  return String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
 
 function enableZoom(img) {
   img.style.cursor = "zoom-in";
-  img.addEventListener("click", (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-    window.open(img.src, "_blank"); // ✅ ALWAYS WORKS
-  });
+  img.addEventListener("click", e => { e.preventDefault(); e.stopPropagation(); window.open(img.src, "_blank"); });
 }
 
-/* ---------- SHARED: RENDER ONE CATEGORY ---------- */
-
-function buildCategory(categoryName, parts) {
-  const catDiv = document.createElement("div");
-  catDiv.className = "category";
-  const accent = CATEGORY_COLORS[categoryName] || "#475569";
-  catDiv.style.setProperty("--cat-color", accent);
-
-  const h3 = document.createElement("h3");
-  h3.textContent = categoryName;
-  catDiv.appendChild(h3);
-
-  let lastSub = null;
-
-  parts.forEach(part => {
-    // Subcategory sub-header (consumables only)
-    if (part.subcategory && part.subcategory !== lastSub) {
-      const h4 = document.createElement("h4");
-      h4.className = "subcategory";
-      h4.textContent = part.subcategory;
-      catDiv.appendChild(h4);
-      lastSub = part.subcategory;
-    }
-
-    const partDiv = document.createElement("div");
-    partDiv.className = "part";
-
-    if (part.image) {
-      const img = document.createElement("img");
-      img.src = part.image;
-      img.onerror = () => { img.style.display = "none"; };
-      enableZoom(img);
-      partDiv.appendChild(img);
-    }
-
-    const text = document.createElement("div");
-
-    const nameEl = document.createElement("strong");
-    nameEl.textContent = part.name;
-    text.appendChild(nameEl);
-
-    if (part.description) {
-      const desc = document.createElement("div");
-      desc.className = "part-desc";
-      desc.textContent = part.description;
-      text.appendChild(desc);
-    }
-
-    // Part numbers as tagged badge rows (NK vs Lapidot stand out)
-    const nums = document.createElement("div");
-    nums.className = "pn-block";
-    function pnRow(tagText, tagClass, value) {
-      const row = document.createElement("div");
-      row.className = "pn-row";
-      const tag = document.createElement("span");
-      tag.className = "pn-tag " + tagClass;
-      tag.textContent = tagText;
-      const val = document.createElement("span");
-      val.className = "pn-val";
-      val.textContent = value;
-      row.appendChild(tag);
-      row.appendChild(val);
-      return row;
-    }
-    if (part.nk_part_number || part.lapidot_part_number !== undefined) {
-      if (part.nk_part_number) nums.appendChild(pnRow("NK", "nk", part.nk_part_number));
-      nums.appendChild(pnRow("LAP", "lap", part.lapidot_part_number ? part.lapidot_part_number : "—"));
-    } else if (part.part_number) {
-      nums.appendChild(pnRow("PART", "nk", part.part_number));
-    }
-    text.appendChild(nums);
-
-    // Compatible devices (clickable when the device exists in the catalog)
-    if (Array.isArray(part.compatible) && part.compatible.length) {
-      const compDiv = document.createElement("div");
-      compDiv.className = "compatible";
-
-      const label = document.createElement("span");
-      label.textContent = "Compatible with: ";
-      compDiv.appendChild(label);
-
-      part.compatible.forEach((devName, idx) => {
-        const chip = document.createElement("span");
-        chip.textContent = devName;
-        if (devicesData[devName]) {
-          chip.className = "compat-device";
-          chip.addEventListener("click", () => renderDevice(devName));
-        }
-        compDiv.appendChild(chip);
-        if (idx < part.compatible.length - 1) {
-          compDiv.appendChild(document.createTextNode(", "));
-        }
-      });
-
-      text.appendChild(compDiv);
-    }
-
-    partDiv.appendChild(text);
-    catDiv.appendChild(partDiv);
-  });
-
-  return catDiv;
+function copyValue(numEl, value) {
+  const done = () => { numEl.classList.add("copied"); setTimeout(() => numEl.classList.remove("copied"), 950); };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(value).then(done, fallback);
+  } else { fallback(); }
+  function fallback() {
+    const t = document.createElement("textarea");
+    t.value = value; document.body.appendChild(t); t.select();
+    try { document.execCommand("copy"); } catch (e) {}
+    t.remove(); done();
+  }
 }
 
-/* ---------- RENDER DEVICE LIST (SIDEBAR) ---------- */
-
-function renderDeviceList() {
-  deviceListEl.innerHTML = "";
-
+/* ---------- BUILD: ALL SECTIONS ---------- */
+function getSections() {
+  const sections = [];
   Object.entries(devicesData).forEach(([deviceName, device]) => {
-    const li = document.createElement("li");
+    let items = [];
+    Object.values(device.categories || {}).forEach(parts => { items = items.concat(parts); });
+    sections.push({ key: "dev:" + deviceName, title: deviceName, kind: "Device", color: DEVICE_COLOR, type: "device", items });
+  });
+  Object.entries(consumablesData.categories || {}).forEach(([cat, items]) => {
+    sections.push({ key: "con:" + cat, title: cat, kind: "Consumables", color: CATEGORY_COLORS[cat] || "#64748b", type: "consumable", items });
+  });
+  return sections;
+}
 
-    if (device.image) {
-      const img = document.createElement("img");
-      img.src = device.image;
-      enableZoom(img);
-      li.appendChild(img);
-    }
+function allItems() {
+  const out = [];
+  getSections().forEach(s => s.items.forEach(it => out.push(it)));
+  return out;
+}
 
-    const text = document.createElement("span");
-    text.textContent = deviceName;
-    li.appendChild(text);
-
-    li.addEventListener("click", (e) => {
-      if (e.target.tagName === "IMG") return;
-      renderDevice(deviceName);
+/* ---------- FILTER CHIPS ---------- */
+function buildFilters() {
+  let html = '<span class="flabel">Jump to</span>';
+  html += '<span class="chip ' + (currentFilter === "all" ? "active" : "") + '" data-f="all">All</span>';
+  html += '<span class="fdiv"></span>';
+  Object.keys(devicesData).forEach(name => {
+    html += '<span class="chip" data-f="dev:' + esc(name) + '"><span class="cdot" style="background:' + DEVICE_COLOR + '"></span>' + esc(name) + '</span>';
+  });
+  if (Object.keys(consumablesData.categories || {}).length) html += '<span class="fdiv"></span>';
+  Object.keys(consumablesData.categories || {}).forEach(cat => {
+    const c = CATEGORY_COLORS[cat] || "#64748b";
+    html += '<span class="chip" data-f="con:' + esc(cat) + '"><span class="cdot" style="background:' + c + '"></span>' + esc(cat) + '</span>';
+  });
+  filterbar.innerHTML = html;
+  filterbar.querySelectorAll(".chip").forEach(ch => {
+    ch.addEventListener("click", () => {
+      currentFilter = ch.dataset.f;
+      searchInput.value = "";
+      render();
     });
-
-    deviceListEl.appendChild(li);
   });
 }
 
-/* ---------- RENDER CONSUMABLES LIST (SIDEBAR) ---------- */
-
-function renderConsumablesList() {
-  consumablesListEl.innerHTML = "";
-  const categories = consumablesData.categories || {};
-
-  // "All Consumables" entry at the top
-  const allLi = document.createElement("li");
-  const allText = document.createElement("span");
-  allText.textContent = "All Consumables";
-  allLi.appendChild(allText);
-  allLi.addEventListener("click", () => renderAllConsumables());
-  consumablesListEl.appendChild(allLi);
-
-  // One entry per consumable category
-  Object.keys(categories).forEach(categoryName => {
-    const li = document.createElement("li");
-    const text = document.createElement("span");
-    text.textContent = categoryName;
-    li.appendChild(text);
-    li.addEventListener("click", () => renderConsumableCategory(categoryName));
-    consumablesListEl.appendChild(li);
-  });
+function setActiveChip() {
+  filterbar.querySelectorAll(".chip").forEach(ch =>
+    ch.classList.toggle("active", ch.dataset.f === currentFilter && !searchInput.value.trim())
+  );
 }
 
-/* ---------- RENDER MAIN CONTENT: DEVICE ---------- */
+/* ---------- ROW ---------- */
+function numCell(cls, tag, value) {
+  const has = value && String(value).trim();
+  const inner = has
+    ? '<span class="v" data-copy="' + esc(value) + '">' + esc(value) + "</span>" + COPY_ICON
+    : '<span class="v empty">not set</span>';
+  return '<div class="numcell ' + cls + '"><span class="tag">' + tag + '</span><div class="num">' + inner + "</div></div>";
+}
 
-function renderDevice(deviceName) {
-  const device = devicesData[deviceName];
-  mainContent.innerHTML = "";
-
-  const header = document.createElement("div");
-  header.className = "device-header";
-
-  const title = document.createElement("h2");
-  title.textContent = deviceName;
-  header.appendChild(title);
-
-  if (device.image) {
-    const img = document.createElement("img");
-    img.src = device.image;
-    enableZoom(img);
-    header.appendChild(img);
+function rowHTML(it) {
+  let nkCell, lapCell;
+  if (it.nk_part_number !== undefined) {
+    nkCell = numCell("nk", "Nihon Kohden", it.nk_part_number);
+    lapCell = numCell("lap", "Lapidot", it.lapidot_part_number);
+  } else {
+    nkCell = numCell("nk", "Nihon Kohden", it.part_number);
+    lapCell = numCell("lap", "Lapidot", it.lapidot_part_number);
   }
 
-  mainContent.appendChild(header);
+  let compat = "";
+  if (Array.isArray(it.compatible) && it.compatible.length) {
+    const parts = it.compatible.map(dev => {
+      if (devicesData[dev]) return '<span class="compat-device" data-dev="' + esc(dev) + '">' + esc(dev) + "</span>";
+      return esc(dev);
+    });
+    compat = '<div class="rcompat">Fits: ' + parts.join(", ") + "</div>";
+  }
 
-  Object.entries(device.categories).forEach(([categoryName, parts]) => {
-    mainContent.appendChild(buildCategory(categoryName, parts));
-  });
+  const img = it.image
+    ? '<img src="' + esc(it.image) + '" alt="" onerror="this.remove()" />'
+    : "";
+
+  return (
+    '<div class="row">' +
+    '<div class="rthumb">' + img + PLACEHOLDER + "</div>" +
+    "<div><div class=\"rname\">" + esc(it.name) + "</div>" +
+    (it.description ? '<div class="rdesc">' + esc(it.description) + "</div>" : "") +
+    compat + "</div>" +
+    nkCell + lapCell +
+    "</div>"
+  );
 }
 
-/* ---------- RENDER MAIN CONTENT: CONSUMABLES ---------- */
+/* Render a list of items for a consumable section, grouping by subcategory */
+function itemsWithSubheads(items) {
+  let html = "";
+  let lastSub = null;
+  items.forEach(it => {
+    if (it.subcategory && it.subcategory !== lastSub) {
+      html += '<div class="subhead">' + esc(it.subcategory) + "</div>";
+      lastSub = it.subcategory;
+    }
+    html += rowHTML(it);
+  });
+  return html;
+}
 
-function renderAllConsumables() {
-  const categories = consumablesData.categories || {};
-  mainContent.innerHTML = "";
+function sectionHTML(s) {
+  const body = s.type === "consumable" ? itemsWithSubheads(s.items) : s.items.map(rowHTML).join("");
+  return (
+    '<div class="section-row"><span class="pip" style="background:' + s.color + '"></span>' +
+    "<h2>" + esc(s.title) + '</h2><span class="count">' + s.kind + " · " + s.items.length + ' item' + (s.items.length !== 1 ? "s" : "") + '</span><span class="rule"></span></div>' +
+    body
+  );
+}
 
-  const header = document.createElement("div");
-  header.className = "device-header";
-  const title = document.createElement("h2");
-  title.textContent = "Consumables";
-  header.appendChild(title);
-  mainContent.appendChild(header);
+/* ---------- RENDER ---------- */
+function render() {
+  setActiveChip();
+  const q = searchInput.value.trim().toLowerCase();
 
-  const keys = Object.keys(categories);
-  if (keys.length === 0) {
-    const p = document.createElement("p");
-    p.textContent = "No consumables added yet.";
-    mainContent.appendChild(p);
+  if (q) {
+    const hits = allItems().filter(it => JSON.stringify(it).toLowerCase().includes(q));
+    results.innerHTML =
+      '<div class="section-row"><h2>Search results</h2><span class="count">' +
+      hits.length + " match" + (hits.length !== 1 ? "es" : "") + ' · "' + esc(q) + '"</span><span class="rule"></span></div>' +
+      (hits.length ? hits.map(rowHTML).join("") : '<div class="empty-state">No parts match "' + esc(q) + '". Try an NK number, Lapidot number, or device name.</div>');
+    wire();
     return;
   }
 
-  keys.forEach(categoryName => {
-    mainContent.appendChild(buildCategory(categoryName, categories[categoryName]));
-  });
+  let sections = getSections();
+  if (currentFilter !== "all") sections = sections.filter(s => s.key === currentFilter);
+
+  if (!sections.length) {
+    results.innerHTML = '<div class="empty-state">Nothing to show yet.</div>';
+    return;
+  }
+  results.innerHTML = sections.map(sectionHTML).join("");
+  wire();
 }
 
-function renderConsumableCategory(categoryName) {
-  const parts = (consumablesData.categories || {})[categoryName] || [];
-  mainContent.innerHTML = "";
-
-  const header = document.createElement("div");
-  header.className = "device-header";
-  const title = document.createElement("h2");
-  title.textContent = "Consumables — " + categoryName;
-  header.appendChild(title);
-  mainContent.appendChild(header);
-
-  mainContent.appendChild(buildCategory(categoryName, parts));
+function wire() {
+  results.querySelectorAll(".rthumb img").forEach(enableZoom);
+  results.querySelectorAll(".num .v[data-copy]").forEach(v =>
+    v.addEventListener("click", () => copyValue(v.closest(".num"), v.dataset.copy))
+  );
+  results.querySelectorAll(".compat-device").forEach(chip =>
+    chip.addEventListener("click", () => {
+      currentFilter = "dev:" + chip.dataset.dev;
+      searchInput.value = "";
+      render();
+      results.scrollTop = 0;
+    })
+  );
 }
+
+/* ---------- SEARCH EVENTS ---------- */
+searchInput.addEventListener("input", render);
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && document.activeElement === searchInput) { searchInput.value = ""; render(); }
+});
