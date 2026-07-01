@@ -26,6 +26,9 @@
 
     <!-- Masthead with search -->
     <header class="masthead">
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
       <div class="logo" id="logoHome" title="Home">
         <img src="images/logo.png" alt="" class="logo-img" onerror="this.style.display='none'" />
         <span class="logo-mark">NK</span>
@@ -42,6 +45,7 @@
     <!-- Workspace: sidebar + content -->
     <div class="workspace">
       <aside class="sidebar" id="sidebar"></aside>
+      <div class="sidebar-overlay" id="sidebarOverlay"></div>
       <main class="results" id="results"></main>
     </div>
   </div>

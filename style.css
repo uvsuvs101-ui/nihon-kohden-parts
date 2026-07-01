@@ -43,6 +43,12 @@ body { margin: 0; background: var(--bg); color: var(--ink); font-size: 14px; }
 .bigsearch svg { position: absolute; left: 14px; top: 13px; width: 17px; height: 17px; color: var(--muted); }
 .kbd { position: absolute; right: 12px; top: 11px; font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 5px; padding: 2px 6px; background: #faf9f6; }
 
+/* Mobile menu button + drawer overlay — hidden on desktop, shown under the breakpoint */
+.menu-btn { display: none; align-items: center; justify-content: center; width: 40px; height: 40px; border: 1px solid var(--line); background: #fff; border-radius: 9px; cursor: pointer; color: var(--ink); flex-shrink: 0; padding: 0; }
+.menu-btn svg { width: 20px; height: 20px; }
+.menu-btn:active { background: #f4f3ee; }
+.sidebar-overlay { display: none; }
+
 /* Workspace */
 .workspace { display: grid; grid-template-columns: 266px 1fr; min-height: 0; }
 
@@ -124,9 +130,58 @@ body { margin: 0; background: var(--bg); color: var(--ink); font-size: 14px; }
 .empty-state { text-align: center; color: var(--muted); padding: 70px 20px; }
 
 @media (max-width: 860px) {
-  .workspace { grid-template-columns: 1fr; }
-  .sidebar { display: none; }
-  .row { grid-template-columns: 48px 1fr; gap: 12px; }
-  .numcell { grid-column: 2; flex-direction: row; align-items: center; gap: 8px; }
+  .shell { height: 100vh; height: 100dvh; }   /* dvh avoids the mobile address-bar gap */
+  .menu-btn { display: flex; }
+
+  /* Masthead: hamburger + logo on row 1, full-width search on row 2 (search-first) */
+  .masthead { flex-wrap: wrap; gap: 10px 12px; padding: 10px 14px; }
   .logo-name, .logo-sub, .kbd { display: none; }
+  .bigsearch { order: 3; flex-basis: 100%; max-width: none; }
+  .bigsearch input { height: 44px; font-size: 16px; }   /* 16px stops iOS zoom-on-focus */
+  .bigsearch svg { top: 14px; }
+
+  /* Single column; sidebar becomes an off-canvas drawer */
+  .workspace { grid-template-columns: 1fr; position: relative; }
+  .sidebar {
+    position: fixed; top: 0; left: 0; bottom: 0; z-index: 60;
+    width: 284px; max-width: 84vw; padding-top: 14px;
+    transform: translateX(-100%); transition: transform .22s ease;
+    box-shadow: 0 10px 40px rgba(0,0,0,.18);
+  }
+  .sidebar.open { transform: translateX(0); }
+  .sidebar-overlay {
+    display: block; position: fixed; inset: 0; z-index: 55;
+    background: rgba(15,20,25,.42);
+    opacity: 0; pointer-events: none; transition: opacity .22s ease;
+  }
+  .sidebar-overlay.show { opacity: 1; pointer-events: auto; }
+
+  /* Bigger touch targets in the drawer */
+  .nav-home, .nav-item, .nav-group-head { padding: 12px; font-size: 15px; }
+  .nav-item.child { padding-left: 34px; font-size: 14.5px; }
+  .ni-count { font-size: 12px; }
+
+  /* Content */
+  .results { padding: 16px 14px 44px; }
+  .page-title { flex-wrap: wrap; gap: 4px 10px; }
+  .page-title h1 { font-size: 20px; }
+
+  /* Rows stack: thumb + text on top, NK / Lapidot as full-width bars below */
+  .row { grid-template-columns: 46px 1fr; row-gap: 10px; padding: 12px; }
+  .row > .numcell {
+    grid-column: 1 / -1; flex-direction: row; align-items: center; justify-content: space-between;
+    gap: 10px; padding: 8px 10px; background: #faf9f6; border: 1px solid var(--line2); border-radius: 8px;
+  }
+  .numcell .num { font-size: 14px; }
+  .numcell .num .v { padding: 2px 0; }
+  .numcell .num .copyicon { width: 18px; height: 18px; }   /* larger tap target */
+
+  /* Home tiles: two per row */
+  .tile-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+  .tile { padding: 14px 14px 14px 18px; }
+  .tile-label { font-size: 14px; }
+
+  /* Password screen fits small screens */
+  .password-box { width: 340px; max-width: calc(100vw - 32px); padding: 32px 24px; }
+  .password-box input { font-size: 16px; }
 }

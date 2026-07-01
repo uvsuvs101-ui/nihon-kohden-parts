@@ -11,6 +11,16 @@ const results = document.getElementById("results");
 const searchInput = document.getElementById("searchInput");
 document.getElementById("logoHome").addEventListener("click", () => goHome());
 
+/* ---------- MOBILE DRAWER ---------- */
+const menuBtn = document.getElementById("menuBtn");
+const sidebarOverlay = document.getElementById("sidebarOverlay");
+function openDrawer() { sidebar.classList.add("open"); sidebarOverlay.classList.add("show"); }
+function closeDrawer() { sidebar.classList.remove("open"); sidebarOverlay.classList.remove("show"); }
+function toggleDrawer() { sidebar.classList.contains("open") ? closeDrawer() : openDrawer(); }
+if (menuBtn) menuBtn.addEventListener("click", toggleDrawer);
+if (sidebarOverlay) sidebarOverlay.addEventListener("click", closeDrawer);
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeDrawer(); });
+
 /* ---------- DEVICE GROUPING ----------
    Devices are sorted into clinical groups by name pattern, so new devices
    you add later fall into the right group automatically. Order shown below.
@@ -208,14 +218,15 @@ function buildSidebar() {
   sidebar.innerHTML = h;
 
   sidebar.querySelector("[data-home]").addEventListener("click", goHome);
+  /* group head: navigate + expand children, but keep the drawer open so you can drill in */
   sidebar.querySelectorAll("[data-group]").forEach(b => b.addEventListener("click", () => { currentView = { type: "group", name: b.dataset.group }; afterNav(); }));
-  sidebar.querySelectorAll("[data-device]").forEach(b => b.addEventListener("click", () => { currentView = { type: "device", name: b.dataset.device }; afterNav(); }));
-  sidebar.querySelectorAll("[data-category]").forEach(b => b.addEventListener("click", () => { currentView = { type: "category", name: b.dataset.category }; afterNav(); }));
+  sidebar.querySelectorAll("[data-device]").forEach(b => b.addEventListener("click", () => { currentView = { type: "device", name: b.dataset.device }; afterNav(); closeDrawer(); }));
+  sidebar.querySelectorAll("[data-category]").forEach(b => b.addEventListener("click", () => { currentView = { type: "category", name: b.dataset.category }; afterNav(); closeDrawer(); }));
   const nb = sidebar.querySelector("[data-neuro]");
-  if (nb) nb.addEventListener("click", () => { currentView = { type: "neuro" }; afterNav(); });
+  if (nb) nb.addEventListener("click", () => { currentView = { type: "neuro" }; afterNav(); closeDrawer(); });
 }
 
-function goHome() { currentView = { type: "home" }; searchInput.value = ""; render(); results.scrollTop = 0; }
+function goHome() { currentView = { type: "home" }; searchInput.value = ""; render(); results.scrollTop = 0; closeDrawer(); }
 function afterNav() { searchInput.value = ""; render(); results.scrollTop = 0; }
 
 /* ---------- ROWS ---------- */
