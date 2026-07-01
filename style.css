@@ -18,7 +18,8 @@ body { margin: 0; background: var(--bg); color: var(--ink); font-size: 14px; }
 /* ===== Password Screen ===== */
 #passwordScreen { display: flex; align-items: center; justify-content: center; height: 100vh; background: #10211c; }
 .password-box { background: #fff; padding: 40px; border-radius: 14px; text-align: center; width: 340px; box-shadow: 0 18px 50px rgba(0,0,0,.35); }
-.password-logo { width: 120px; margin-bottom: 16px; }
+.password-logo { width: 190px; max-width: 72%; height: auto; margin: 0 auto 16px; display: block; }
+.password-divider { width: 78%; height: 1px; background: var(--line); margin: 0 auto 20px; }
 .password-box h2 { margin: 0 0 6px; font-size: 20px; color: var(--accent); }
 .password-box p { color: #6b7280; margin: 0 0 20px; font-size: 14px; }
 .password-box input { width: 100%; padding: 11px 14px; border: 1px solid #d1d5db; border-radius: 8px; font-size: 15px; margin-bottom: 12px; outline: none; }
