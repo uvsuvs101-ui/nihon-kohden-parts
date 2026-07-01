@@ -512,7 +512,7 @@
       {
         "name": "SpO2 BluPRO Probe",
         "nk_part_number": "P203B (TL-272T)",
-        "lapidot_part_number": "NKE-P203A",
+        "lapidot_part_number": "NKE-P203B",
         "image": "images/consumables/P203B.jpeg",
         "subcategory": "Disposable Probes",
         "compatible": [],
@@ -521,7 +521,7 @@
       {
         "name": "SpO2 BluPRO Probe",
         "nk_part_number": "P203C (TL-273T)",
-        "lapidot_part_number": "NKE-P256",
+        "lapidot_part_number": "NKP203C",
         "image": "images/consumables/P203C.jpeg",
         "subcategory": "Disposable Probes",
         "compatible": [],
@@ -548,7 +548,7 @@
       {
         "name": "SpO2 BluPRO Probe",
         "nk_part_number": "P203F (TL-272T3)",
-        "lapidot_part_number": "NKE-P203E",
+        "lapidot_part_number": "NKEP203F",
         "image": "images/consumables/P203F.jpeg",
         "subcategory": "Disposable Probes",
         "compatible": [],
@@ -566,7 +566,7 @@
       {
         "name": "SpO2 BluPRO Probe",
         "nk_part_number": "P203H (TL-274T3)",
-        "lapidot_part_number": "NKE-P203G",
+        "lapidot_part_number": "NKEP203H",
         "image": "images/consumables/P203H.jpeg",
         "subcategory": "Disposable Probes",
         "compatible": [],
@@ -625,7 +625,7 @@
       {
         "name": "NIBP Air-Hose",
         "nk_part_number": "S902 (YN-901P)",
-        "lapidot_part_number": "NKES901",
+        "lapidot_part_number": "NKES902",
         "image": "images/consumables/S902.jpeg",
         "subcategory": "NIBP Air Hoses",
         "compatible": [
@@ -718,7 +718,7 @@
       {
         "name": "NIBP Cuffs",
         "nk_part_number": "S954C (YP-842T)",
-        "lapidot_part_number": "NKES954B",
+        "lapidot_part_number": "NKES954C",
         "image": "images/consumables/S954C.jpeg",
         "subcategory": "Disposable Standard NIBP Cuffs",
         "compatible": [],
@@ -1152,7 +1152,7 @@
       {
         "name": "cap-ONE nasal adapter",
         "nk_part_number": "YG-230T",
-        "lapidot_part_number": "NKE-YG-221T",
+        "lapidot_part_number": "NKE-YG-230T",
         "image": "images/consumables/YG-230T.jpeg",
         "subcategory": "Non-Intubated",
         "compatible": [
@@ -1725,18 +1725,6 @@
           "MEB-9600"
         ],
         "description": "Classic line Disposable, Needle: 0.45mm x 45mm, 1 PK - 25 EA"
-      },
-      {
-        "name": "Concentric Needle Electrode",
-        "nk_part_number": "NKD-NM4550",
-        "lapidot_part_number": "NKE-NKD-NM4550P",
-        "image": "images/consumables/NKD-NM4550.jpeg",
-        "subcategory": "Concentric Needles",
-        "compatible": [
-          "MEB-2300",
-          "MEB-9600"
-        ],
-        "description": "Classic line Disposable, Needle: 0.45mm x 50mm, 1 PK - 25 EA"
       },
       {
         "name": "Concentric Needle Electrode",
